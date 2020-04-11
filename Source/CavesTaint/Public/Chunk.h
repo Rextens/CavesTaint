@@ -317,10 +317,6 @@ public:
 		void generateWalls();
 
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Character")
-		float noise3D(float x, float y, float z);
-		virtual float noise3D_Implementation(float x, float y, float z);
-
-	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Character")
 		void forTests(float x, float y, float z, float value);
 		virtual void forTests_Implementation(float x, float y, float z, float value);
 
@@ -334,43 +330,4 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void dig(FVector actorLocation, FVector hitLocation);
 
-//	UFUNCTION(BlueprintCallable)
-//		void generateBiome
-
-		TQueue<FVector> taskVertices;
-		TQueue<int32> taskTriangles;
-
-		static int testFunction()
-		{
-			return 1;
-			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Something")));
-		}
-};
-
-class CalculateNoise : public FNonAbandonableTask
-{
-public:
-	float value;
-
-
-
-	/*Default constructor*/
-	CalculateNoise(TQueue<FVector> &taskVertices, TQueue<FVector> &taskTriangles)
-	{
-		//noiseVar = noise;
-	}
-
-	/*This function is needed from the API of the engine.
-	My guess is that it provides necessary information
-	about the thread that we occupy and the progress of our task*/
-	FORCEINLINE TStatId GetStatId() const
-	{
-		RETURN_QUICK_DECLARE_CYCLE_STAT(PrimeCalculationAsyncTask, STATGROUP_ThreadPoolAsyncTasks);
-	}
-
-	/*This function is executed when we tell our task to execute*/
-	void DoWork()
-	{
-		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("TestNoise: %i"), value));
-	}
 };

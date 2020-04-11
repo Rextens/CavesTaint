@@ -42,8 +42,6 @@ void AChunk::generateWalls()
 	int32 Y = FMath::FloorToInt(GetActorLocation().Y / 100.0f);
 	int32 Z = FMath::FloorToInt(GetActorLocation().Z / 100.0f);
 
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("ChunkPos: %f"), currentChunkPosition.X));
-
 	for (int16 x = 0; x < CHUNK_SIZE; ++x)
 	{	
 		for (int16 y = 0; y < CHUNK_SIZE; ++y)
@@ -65,11 +63,6 @@ void AChunk::generateWalls()
 	}
 	
 	marchingCubes();
-}
-
-float AChunk::noise3D_Implementation(float x, float y, float z)
-{
-	return 0.0f; 
 }
 
 void AChunk::forTests_Implementation(float x, float y, float z, float value)

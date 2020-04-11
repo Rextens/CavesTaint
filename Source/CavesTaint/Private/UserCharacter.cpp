@@ -9,19 +9,18 @@ AUserCharacter::AUserCharacter(const FObjectInitializer& ObjectInitializer) : Su
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 }
 
 // Called when the game starts or when spawned
 void AUserCharacter::BeginPlay()
 {
-	Super::BeginPlay();	
+	Super::BeginPlay();
+
+	equipmentWidget = CreateWidget<UUserWidget>(this->GetGameInstance(), blueprintEuqipmentReference);
 
 	auto result = Async<int>(EAsyncExecution::Thread, []() {
 		
 		int x = 0;
-
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("TestNoise: %i"), x));
 
 		for (int i = 0; i < 1000000; ++i)
 		{
@@ -30,8 +29,6 @@ void AUserCharacter::BeginPlay()
 				x = i / j;
 			}
 		}
-
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("TestNoise: %i"), x));
 
 		return x;
 	});
@@ -52,8 +49,6 @@ void AUserCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("fbhdsuibgruyfgb")));
-
 	PlayerInputComponent->BindAxis("MoveForward", this, &AUserCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AUserCharacter::MoveRight);
 
@@ -62,6 +57,8 @@ void AUserCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AUserCharacter::StartJump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AUserCharacter::StopJump);
+
+	PlayerInputComponent->BindAction("OpenCloseGui", IE_Pressed, this, &AUserCharacter::openEquipment);
 }
 
 void AUserCharacter::MoveForward(float Value)
@@ -117,6 +114,20 @@ void AUserCharacter::turnHorizontal(float value)
 	}
 }
 
+void AUserCharacter::openEquipment()
+{
+	if (!isGuiOpen)
+	{
+		equipmentWidget->AddToViewport();
+	}
+	if(isGuiOpen)
+	{
+		equipmentWidget->RemoveFromParent();
+	}
+
+	isGuiOpen = !isGuiOpen;
+}
+
 void AUserCharacter::checkChunk()
 {
 	
@@ -162,10 +173,6 @@ AChunk* AUserCharacter::getCurrentChunk()
 		return chunkReferences[currentChunkIndex];
 	}
 	return nullptr;
-}
-
-void AUserCharacter::addChunk_Implementation(FVector location)
-{
 }
 
 void AUserCharacter::removeChunk_Implementation(int32 positionInArray)

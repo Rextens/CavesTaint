@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/HUD.h"
+#include "Blueprint/UserWidget.h"
 #include "Equipment.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class CAVESTAINT_API AEquipment : public AHUD
+class CAVESTAINT_API UEquipment : public UUserWidget
 {
 	GENERATED_BODY()
 	

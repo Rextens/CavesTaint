@@ -7,6 +7,7 @@
 #include "Chunk.h"
 #include <map>
 #include "GravityCharacter.h"
+#include "Blueprint/UserWidget.h"
 #include "UserCharacter.generated.h"
 
 
@@ -37,6 +38,11 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool isGuiOpen = false;
+
+	UPROPERTY(EditAnywhere, Category = "Categoryname")
+		TSubclassOf<UUserWidget> blueprintEuqipmentReference;
+
+	UUserWidget* equipmentWidget;
 
 
 	std::map<int, std::map<int, std::map<int, float> > > chunkBiome;
@@ -79,6 +85,9 @@ public:
 	UFUNCTION()
 		void turnHorizontal(float value);
 
+	UFUNCTION()
+		void openEquipment();
+
 	UFUNCTION(BlueprintCallable, Category = "Chunk")
 		void checkChunk();
 
@@ -87,10 +96,6 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		void spawnChunk(FVector side);
-
-	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Character")
-		void addChunk(FVector location);
-		virtual void addChunk_Implementation(FVector location);
 
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Character")
 		void removeChunk(int32 positionInArray);
