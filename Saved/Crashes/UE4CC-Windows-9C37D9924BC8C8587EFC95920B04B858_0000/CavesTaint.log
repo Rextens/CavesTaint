@@ -1,0 +1,1316 @@
+﻿Log file open, 09/16/19 23:37:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: CavesTaint
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.310127
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Warning: Engine version string in E:/Unreal Projects/CavesTaint/Plugins/SimplexNoise/SimplexNoise.uplugin could not be parsed ("4.10")
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin SimplexNoise
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1809) (), CPU:       Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz, GPU: NVIDIA GeForce GTX 650
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.09.16-21.37.15:556][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.09.16-21.37.15:556][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.09.16-21.37.15:556][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Engine.ini]
+[2019.09.16-21.37.15:556][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Engine.ini]
+[2019.09.16-21.37.15:557][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Engine.ini]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Engine.ini]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.09.16-21.37.15:557][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Engine.ini]
+[2019.09.16-21.37.15:557][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Engine.ini]
+[2019.09.16-21.37.15:564][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.16-21.37.15:564][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.16-21.37.15:565][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.16-21.37.15:565][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.16-21.37.15:565][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.16-21.37.15:641][  0]LogHAL: Display: Platform has ~ 16 GB [17110401024 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.09.16-21.37.15:641][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.09.16-21.37.15:641][  0]LogInit: Going up to parent DeviceProfile []
+[2019.09.16-21.37.15:641][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-21.37.15:641][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.16-21.37.15:641][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.16-21.37.15:641][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-21.37.15:641][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.16-21.37.15:641][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-21.37.15:641][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.16-21.37.15:641][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.16-21.37.15:641][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.16-21.37.15:642][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.16-21.37.15:643][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.16-21.37.15:643][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.16-21.37.15:643][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-21.37.15:643][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.16-21.37.15:643][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.16-21.37.15:643][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.09.16-21.37.15:643][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.09.16-21.37.15:643][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.09.16-21.37.15:643][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Engine.ini]
+[2019.09.16-21.37.15:643][  0]LogInit: Computer: DESKTOP-72VFA2G
+[2019.09.16-21.37.15:643][  0]LogInit: User: PC
+[2019.09.16-21.37.15:643][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.09.16-21.37.15:643][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.09.16-21.37.15:643][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.09.16-21.37.15:643][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.16-21.37.15:643][  0]LogMemory: Process Physical Memory: 97.21 MB used, 97.21 MB peak
+[2019.09.16-21.37.15:643][  0]LogMemory: Process Virtual Memory: 91.81 MB used, 91.81 MB peak
+[2019.09.16-21.37.15:643][  0]LogMemory: Physical Memory: 4391.84 MB used,  11925.91 MB free, 16317.75 MB total
+[2019.09.16-21.37.15:643][  0]LogMemory: Virtual Memory: 4659.08 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.09.16-21.37.15:663][  0]LogInit: Using OS detected language (pl-PL).
+[2019.09.16-21.37.15:663][  0]LogInit: Using OS detected locale (pl-PL).
+[2019.09.16-21.37.15:663][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2019.09.16-21.37.15:664][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2019.09.16-21.37.15:664][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2019.09.16-21.37.15:664][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2019.09.16-21.37.15:664][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2019.09.16-21.37.15:664][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2019.09.16-21.37.15:664][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2019.09.16-21.37.15:664][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2019.09.16-21.37.15:665][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.16-21.37.15:688][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.09.16-21.37.15:688][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.09.16-21.37.15:895][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.16-21.37.15:895][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.16-21.37.15:984][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 650' (Feature Level 11_0)
+[2019.09.16-21.37.15:984][  0]LogD3D11RHI:       2007/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.09.16-21.37.15:986][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.16-21.37.15:986][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.16-21.37.15:986][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.16-21.37.15:993][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.16-21.37.15:993][  0]LogD3D11RHI:     GPU DeviceId: 0xfc6 (for the marketing name, search the web for "GPU Device Id")
+[2019.09.16-21.37.15:993][  0]LogWindows: EnumDisplayDevices:
+[2019.09.16-21.37.15:993][  0]LogWindows:    0. 'NVIDIA GeForce GTX 650' (P:1 D:1)
+[2019.09.16-21.37.15:994][  0]LogWindows:    1. 'NVIDIA GeForce GTX 650' (P:0 D:1)
+[2019.09.16-21.37.15:994][  0]LogWindows:    2. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2019.09.16-21.37.15:995][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2019.09.16-21.37.15:995][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 650
+[2019.09.16-21.37.15:995][  0]LogD3D11RHI:   Driver Version: 436.02 (internal:26.21.14.3602, unified:436.02)
+[2019.09.16-21.37.15:995][  0]LogD3D11RHI:      Driver Date: 8-16-2019
+[2019.09.16-21.37.15:995][  0]LogRHI: Texture pool is 1404 MB (70% of 2007 MB)
+[2019.09.16-21.37.16:052][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.16-21.37.16:064][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.16-21.37.16:064][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.16-21.37.16:065][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.16-21.37.16:073][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.09.16-21.37.16:525][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.09.16-21.37.16:544][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.09.16-21.37.16:562][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.09.16-21.37.16:585][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.09.16-21.37.16:608][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.09.16-21.37.16:626][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.09.16-21.37.16:645][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.09.16-21.37.16:664][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.09.16-21.37.16:672][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.09.16-21.37.16:781][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.09.16-21.37.16:781][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.09.16-21.37.16:781][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.09.16-21.37.16:781][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.09.16-21.37.16:781][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.09.16-21.37.16:781][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.09.16-21.37.16:782][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.09.16-21.37.16:782][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.09.16-21.37.16:782][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.09.16-21.37.16:782][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.09.16-21.37.16:782][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.09.16-21.37.16:782][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.09.16-21.37.16:782][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.09.16-21.37.16:782][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.09.16-21.37.16:782][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.09.16-21.37.16:782][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.09.16-21.37.16:782][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.09.16-21.37.16:782][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.09.16-21.37.16:784][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.09.16-21.37.16:843][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.09.16-21.37.16:843][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.09.16-21.37.16:873][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.09.16-21.37.16:873][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.09.16-21.37.16:895][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.09.16-21.37.16:914][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.09.16-21.37.16:928][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.09.16-21.37.16:942][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.09.16-21.37.17:004][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.09.16-21.37.17:004][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.09.16-21.37.17:005][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.16-21.37.17:014][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.09.16-21.37.17:059][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (E:/Unreal Projects/CavesTaint/Intermediate/Shaders/WorkingDirectory/1532/).
+[2019.09.16-21.37.17:060][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PC/AppData/Local/Temp/UnrealShaderWorkingDir/9ED6E8F445A731A6F8B515BA48D61BC6/'.
+[2019.09.16-21.37.17:062][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.09.16-21.37.17:062][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.09.16-21.37.17:062][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.16-21.37.17:754][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.16-21.37.17:811][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/PC/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.16-21.37.17:811][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/PC/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.09.16-21.37.17:811][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal Projects/CavesTaint/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.16-21.37.17:811][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.16-21.37.17:811][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal Projects/CavesTaint/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.16-21.37.17:811][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.16-21.37.17:824][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.16-21.37.17:824][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.16-21.37.17:824][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.09.16-21.37.17:837][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.16-21.37.17:837][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.09.16-21.37.17:837][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.09.16-21.37.17:867][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.16-21.37.17:868][  0]LogSlate: Using FreeType 2.6.0
+[2019.09.16-21.37.17:868][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.16-21.37.17:975][  0]LogAssetRegistry: FAssetRegistry took 0.0416 seconds to start up
+[2019.09.16-21.37.18:519][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.16-21.37.18:699][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.16-21.37.18:699][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.09.16-21.37.18:699][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.09.16-21.37.18:699][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.09.16-21.37.18:699][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.09.16-21.37.18:718][  0]LogNetVersion: CavesTaint 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4193650340)
+[2019.09.16-21.37.19:496][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.174274 seconds
+[2019.09.16-21.37.19:504][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.09.16-21.37.19:504][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.09.16-21.37.19:504][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.16-21.37.20:543][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.16-21.37.20:557][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.16-21.37.20:805][  0]SourceControl: Source control is disabled
+[2019.09.16-21.37.20:805][  0]SourceControl: Source control is disabled
+[2019.09.16-21.37.20:806][  0]SourceControl: Source control is disabled
+[2019.09.16-21.37.20:807][  0]SourceControl: Source control is disabled
+[2019.09.16-21.37.20:922][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.16-21.37.21:051][  0]LogOcInput: OculusInput pre-init called
+[2019.09.16-21.37.21:999][  0]LogEngine: Initializing Engine...
+[2019.09.16-21.37.22:001][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.16-21.37.22:002][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.09.16-21.37.22:302][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.09.16-21.37.22:318][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.16-21.37.22:341][  0]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-21.37.22:381][  0]LogInit: FAudioDevice initialized.
+[2019.09.16-21.37.22:381][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.09.16-21.37.22:539][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/PC/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.16-21.37.22:547][  0]LogInit: Texture streaming: Enabled
+[2019.09.16-21.37.22:571][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.16-21.37.22:608][  0]LogInit: Transaction tracking system initialized
+[2019.09.16-21.37.22:641][  0]BlueprintLog: New page: Editor Load
+[2019.09.16-21.37.22:752][  0]LocalizationService: Localization service is disabled
+[2019.09.16-21.37.23:248][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/CavesTaint/Content/' took 0.04s
+[2019.09.16-21.37.23:248][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.16-21.37.23:248][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.16-21.37.23:460][  0]SourceControl: Source control is disabled
+[2019.09.16-21.37.23:585][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.16-21.38.25:890][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.09.16-21.38.25:891][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.16-21.38.26:464][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.16-21.38.28:473][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2019.09.16-21.38.28:474][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.16-21.38.28:629][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.16-21.38.28:630][  0]Cmd: MAP LOAD FILE="E:/Unreal Projects/CavesTaint/Content/Map/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.16-21.38.28:630][  0]LightingResults: New page: Lighting Build
+[2019.09.16-21.38.28:633][  0]MapCheck: New page: Map Check
+[2019.09.16-21.38.28:633][  0]LightingResults: New page: Lighting Build
+[2019.09.16-21.38.28:663][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.09.16-21.38.28:837][  0]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-21.38.28:842][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.16-21.38.28:869][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.09.16-21.38.28:869][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.16-21.38.28:869][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,112ms to complete.
+[2019.09.16-21.38.28:869][  0]LogFileHelpers: Loading map 'NewMap' took 0.239
+[2019.09.16-21.38.29:494][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.38.29:504][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.38.29:513][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.38.29:521][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.38.29:717][  0]LogCollectionManager: Loaded 0 collections in 0.001473 seconds
+[2019.09.16-21.38.29:941][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/CavesTaint/Saved/Collections/' took 0.01s
+[2019.09.16-21.38.29:942][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/CavesTaint/Content/Developers/PC/Collections/' took 0.01s
+[2019.09.16-21.38.29:942][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/CavesTaint/Content/Collections/' took 0.00s
+[2019.09.16-21.38.29:942][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.09.16-21.38.29:954][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2740 classes and 665 folders.
+[2019.09.16-21.38.30:024][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.09.16-21.38.30:118][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:223][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:234][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:281][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:296][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:305][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:334][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:359][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:384][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:485][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:507][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:536][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:547][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:554][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:589][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:604][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:636][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:737][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:743][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:773][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:817][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:858][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:875][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.30:892][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-21.38.31:579][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.09.16-21.38.31:754][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.09.16-21.38.32:236][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.16-21.38.32:295][  0]LogSlate: Took 0.014131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.16-21.38.32:766][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2019.09.16-21.38.33:008][  0]LogSlate: Took 0.011599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.16-21.38.33:152][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.09.16-21.38.33:152][  0]LogLoad: (Engine Initialization) Total time: 92.39 seconds
+[2019.09.16-21.38.33:153][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.16-21.38.33:241][  0]LogAssetRegistry: Asset discovery search completed in 75.2875 seconds
+[2019.09.16-21.38.33:244][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.09.16-21.38.33:244][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000096 seconds (updated 0 objects)
+[2019.09.16-21.38.33:261][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.09.16-21.38.51:059][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.38.54:131][319]LogBlueprint: Warning: [Compiler ChunkBP] Input pin  Mesh  specifying non-default value no longer exists on node  SpawnActor Rock . Please refresh node or reset pin to default value to remove pin.
+[2019.09.16-21.38.54:163][319]LogBlueprint: Warning: [Compiler ChunkBP] [0113,40] Compile of ChunkBP successful, but with 1 Warning(s) [in 102 ms] (/Game/Map/ChunkBP.ChunkBP)
+[2019.09.16-21.38.54:194][319]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.16-21.38.54:202][319]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Map/ChunkBP.ChunkBP
+[2019.09.16-21.38.55:112][319]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2019.09.16-21.38.57:048][319]LogSlate: Took 0.016530 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.09.16-21.38.57:739][320]LogSlate: Took 0.049080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.09.16-21.39.10:794][803]BlueprintLog: New page: Compile ChunkBP
+[2019.09.16-21.39.11:195][803]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2019.09.16-21.39.12:066][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/ChunkBP" FILE="E:/Unreal Projects/CavesTaint/Content/Map/ChunkBP.uasset" SILENT=true
+[2019.09.16-21.39.12:752][877]LogSavePackage: Moving 'E:/Unreal Projects/CavesTaint/Saved/ChunkBP0D8E6B48419862521AB870918E9FB9CB.tmp' to 'E:/Unreal Projects/CavesTaint/Content/Map/ChunkBP.uasset'
+[2019.09.16-21.39.14:305][ 15]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-21.39.14:315][ 15]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.39.14:342][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-21.39.14:351][ 15]PIE: New page: PIE session: NewMap (17 wrz 2019, 01:39:14)
+[2019.09.16-21.39.14:372][ 15]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-21.39.14:375][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002582s)
+[2019.09.16-21.39.14:375][ 15]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-21.39.14:375][ 15]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2019.09.16-21.39.14:375][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.003481s)
+[2019.09.16-21.39.14:409][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2019.09.16-21.39.14:514][ 15]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-21.39.14:539][ 15]LogInit: FAudioDevice initialized.
+[2019.09.16-21.39.14:699][ 15]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-21.39.14:767][ 15]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.16-23.39.14
+[2019.09.16-21.39.14:767][ 15]LogWorld: Bringing up level for play took: 0.000781
+[2019.09.16-21.39.14:817][ 15]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.09.16-21.39.14:842][ 15]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.09.16-21.39.14:843][ 15]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.09.16-21.39.14:984][ 15]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap -0,086
+[2019.09.16-21.39.14:985][ 15]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.39.39:387][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.39.51:393][753]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.39.51:393][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.39.51:426][753]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.16-21.39.51:426][753]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.39.51:468][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.39.51:499][753]LogUObjectHash: Compacting FUObjectHashTables data took   6.47ms
+[2019.09.16-21.39.51:514][754]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.09.16-21.39.56:403][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.39.57:325][136]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/User/UserCharacterBP.UserCharacterBP
+[2019.09.16-21.40.33:773][ 95]BlueprintLog: New page: Compile UserCharacterBP
+[2019.09.16-21.40.34:011][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2019.09.16-21.40.34:455][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/User/UserCharacterBP" FILE="E:/Unreal Projects/CavesTaint/Content/User/UserCharacterBP.uasset" SILENT=true
+[2019.09.16-21.40.34:488][127]LogSavePackage: Moving 'E:/Unreal Projects/CavesTaint/Saved/UserCharacterBP27A7103A4BF1A3BAD30324B99261062F.tmp' to 'E:/Unreal Projects/CavesTaint/Content/User/UserCharacterBP.uasset'
+[2019.09.16-21.40.40:696][524]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-21.40.40:712][524]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.40.40:712][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-21.40.40:712][524]PIE: New page: PIE session: NewMap (17 wrz 2019, 01:40:40)
+[2019.09.16-21.40.40:712][524]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-21.40.40:714][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002588s)
+[2019.09.16-21.40.40:715][524]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-21.40.40:715][524]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2019.09.16-21.40.40:715][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.003607s)
+[2019.09.16-21.40.40:752][524]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2019.09.16-21.40.40:765][524]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-21.40.40:786][524]LogInit: FAudioDevice initialized.
+[2019.09.16-21.40.40:817][524]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-21.40.40:819][524]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.16-23.40.40
+[2019.09.16-21.40.40:819][524]LogWorld: Bringing up level for play took: 0.000596
+[2019.09.16-21.40.40:833][524]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap -0,239
+[2019.09.16-21.40.40:833][524]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.40.51:167][639]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.40.51:168][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.40.51:195][639]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.16-21.40.51:196][639]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.40.51:236][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.40.51:241][639]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.09.16-21.40.51:300][640]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.09.16-21.40.56:594][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.40.58:401][206]LogEditorTransaction: Undo Break Pin Links
+[2019.09.16-21.42.04:884][512]LogHotReload: New module detected: UE4Editor-SimplexNoise-0131.dll
+[2019.09.16-21.45.02:190][177]LogHotReload: New module detected: UE4Editor-CavesTaint-0131.dll
+[2019.09.16-21.45.05:212][187]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.16-21.45.05:273][187]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
+[2019.09.16-21.45.05:273][187]LogBlueprintActionDatabase: Requesting refresh due to module change: SimplexNoise (unloaded)
+[2019.09.16-21.45.05:287][187]LogBlueprintActionDatabase: Requesting refresh due to module change: SimplexNoise (loaded)
+[2019.09.16-21.45.05:288][187]LogContentBrowser: Native class hierarchy updated for 'SimplexNoise' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2019.09.16-21.45.05:288][187]LogBlueprintActionDatabase: Requesting refresh due to module change: CavesTaint (unloaded)
+[2019.09.16-21.45.05:331][187]LogBlueprintActionDatabase: Requesting refresh due to module change: CavesTaint (loaded)
+[2019.09.16-21.45.05:332][187]LogContentBrowser: Native class hierarchy updated for 'CavesTaint' in 0.0005 seconds. Added 7 classes and 3 folders.
+[2019.09.16-21.45.05:337][187]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2019.09.16-21.45.05:508][187]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2019.09.16-21.45.05:509][187]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.16-21.45.05:530][187]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2741 classes and 667 folders.
+[2019.09.16-21.45.05:532][187]Display: HotReload took  0.3s.
+[2019.09.16-21.45.22:767][726]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.45.22:868][733]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-21.45.22:892][733]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.45.22:892][733]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.09.16-21.45.22:898][733]LogPlayLevel: [PlayLevel] Compiling UserCharacterBP before play...
+[2019.09.16-21.45.23:253][733]LogUObjectHash: Compacting FUObjectHashTables data took   7.06ms
+[2019.09.16-21.45.23:253][733]LogPlayLevel: PlayLevel: Blueprint regeneration took 361 ms (1 blueprints)
+[2019.09.16-21.45.23:253][733]PIE: New page: PIE session: NewMap (17 wrz 2019, 01:45:23)
+[2019.09.16-21.45.23:254][733]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-21.45.23:257][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003239s)
+[2019.09.16-21.45.23:258][733]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-21.45.23:259][733]LogPlayLevel: PIE: World Init took: (0.001355s)
+[2019.09.16-21.45.23:259][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.005160s)
+[2019.09.16-21.45.23:304][733]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2019.09.16-21.45.23:318][733]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-21.45.23:345][733]LogInit: FAudioDevice initialized.
+[2019.09.16-21.45.23:372][733]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-21.45.23:373][733]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.16-23.45.23
+[2019.09.16-21.45.23:373][733]LogWorld: Bringing up level for play took: 0.000588
+[2019.09.16-21.45.23:388][733]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap 0,317
+[2019.09.16-21.45.23:388][733]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.45.29:441][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.45.45:604][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.45.56:456][ 20]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.45.56:456][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.45.56:490][ 20]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.16-21.45.56:490][ 20]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.45.56:538][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.45.56:555][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2019.09.16-21.45.56:571][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.09.16-21.46.14:212][148]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.46.16:215][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/User/UserCharacterBP" FILE="E:/Unreal Projects/CavesTaint/Content/User/UserCharacterBP.uasset" SILENT=true
+[2019.09.16-21.46.16:248][370]LogSavePackage: Moving 'E:/Unreal Projects/CavesTaint/Saved/UserCharacterBP8E6C60DC48E8830D91044FBED5BE5A67.tmp' to 'E:/Unreal Projects/CavesTaint/Content/User/UserCharacterBP.uasset'
+[2019.09.16-21.46.28:250][796]BlueprintLog: New page: Compile UserCharacterBP
+[2019.09.16-21.46.28:496][796]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2019.09.16-21.46.28:900][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/User/UserCharacterBP" FILE="E:/Unreal Projects/CavesTaint/Content/User/UserCharacterBP.uasset" SILENT=true
+[2019.09.16-21.46.28:930][826]LogSavePackage: Moving 'E:/Unreal Projects/CavesTaint/Saved/UserCharacterBP0EA6D4FD4BBAF9F4D1D92DA4FCF29335.tmp' to 'E:/Unreal Projects/CavesTaint/Content/User/UserCharacterBP.uasset'
+[2019.09.16-21.46.30:026][911]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-21.46.30:043][911]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.46.30:043][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-21.46.30:044][911]PIE: New page: PIE session: NewMap (17 wrz 2019, 01:46:30)
+[2019.09.16-21.46.30:044][911]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-21.46.30:046][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002791s)
+[2019.09.16-21.46.30:047][911]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-21.46.30:048][911]LogPlayLevel: PIE: World Init took: (0.001026s)
+[2019.09.16-21.46.30:048][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.003979s)
+[2019.09.16-21.46.30:087][911]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2019.09.16-21.46.30:099][911]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-21.46.30:122][911]LogInit: FAudioDevice initialized.
+[2019.09.16-21.46.30:152][911]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-21.46.30:154][911]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.16-23.46.30
+[2019.09.16-21.46.30:154][911]LogWorld: Bringing up level for play took: 0.000589
+[2019.09.16-21.46.30:167][911]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap 1,097
+[2019.09.16-21.46.30:168][911]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.46.35:077][274]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.46.36:559][370]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.09.16-21.46.38:351][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.46.44:380][824]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2019.09.16-21.46.44:397][824]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.16-21.46.48:570][128]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.46.48:571][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.46.48:604][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.16-21.46.48:605][128]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.46.48:646][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.46.48:651][128]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.09.16-21.46.48:675][130]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.09.16-21.47.21:930][147]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.09.16-21.47.22:996][211]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.47.23:102][221]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-21.47.23:126][221]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.47.23:126][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-21.47.23:126][221]PIE: New page: PIE session: NewMap (17 wrz 2019, 01:47:23)
+[2019.09.16-21.47.23:126][221]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-21.47.23:129][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002662s)
+[2019.09.16-21.47.23:129][221]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-21.47.23:151][221]LogPlayLevel: PIE: World Init took: (0.022713s)
+[2019.09.16-21.47.23:152][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.025530s)
+[2019.09.16-21.47.23:192][221]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.09.16-21.47.23:207][221]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-21.47.23:229][221]LogInit: FAudioDevice initialized.
+[2019.09.16-21.47.23:262][221]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-21.47.23:263][221]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.16-23.47.23
+[2019.09.16-21.47.23:264][221]LogWorld: Bringing up level for play took: 0.000602
+[2019.09.16-21.47.23:278][221]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap 0,207
+[2019.09.16-21.47.23:278][221]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.47.27:102][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.47.50:904][108]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.47.50:904][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.47.50:940][108]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.16-21.47.50:940][108]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.47.50:987][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.47.50:993][108]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.09.16-21.47.51:009][109]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.09.16-21.47.52:227][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.47.58:202][602]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-21.47.58:222][602]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.47.58:222][602]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-21.47.58:222][602]PIE: New page: PIE session: NewMap (17 wrz 2019, 01:47:58)
+[2019.09.16-21.47.58:223][602]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-21.47.58:225][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002562s)
+[2019.09.16-21.47.58:226][602]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-21.47.58:226][602]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2019.09.16-21.47.58:226][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.003463s)
+[2019.09.16-21.47.58:269][602]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2019.09.16-21.47.58:281][602]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-21.47.58:304][602]LogInit: FAudioDevice initialized.
+[2019.09.16-21.47.58:336][602]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-21.47.58:337][602]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.16-23.47.58
+[2019.09.16-21.47.58:338][602]LogWorld: Bringing up level for play took: 0.000582
+[2019.09.16-21.47.58:352][602]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap -0,719
+[2019.09.16-21.47.58:352][602]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.48.02:537][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.48.07:072][223]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.48.07:073][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.48.07:118][223]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.16-21.48.07:118][223]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.48.07:161][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.48.07:166][223]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2019.09.16-21.48.07:182][224]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.09.16-21.48.08:351][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.48.21:896][128]LogActorFactory: Actor Factory created Shape_Cube
+[2019.09.16-21.48.22:664][181]LogActorFactory: Actor Factory created Shape_Cube
+[2019.09.16-21.48.24:989][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.48.28:315][416]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.09.16-21.48.28:505][416]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.16-21.48.36:332][893]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.48.36:449][900]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-21.48.36:467][900]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.48.36:467][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-21.48.36:467][900]PIE: New page: PIE session: NewMap (17 wrz 2019, 01:48:36)
+[2019.09.16-21.48.36:467][900]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-21.48.36:470][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002727s)
+[2019.09.16-21.48.36:471][900]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-21.48.36:471][900]LogPlayLevel: PIE: World Init took: (0.001092s)
+[2019.09.16-21.48.36:471][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.004014s)
+[2019.09.16-21.48.36:512][900]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2019.09.16-21.48.36:525][900]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-21.48.36:548][900]LogInit: FAudioDevice initialized.
+[2019.09.16-21.48.36:580][900]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-21.48.36:581][900]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.16-23.48.36
+[2019.09.16-21.48.36:582][900]LogWorld: Bringing up level for play took: 0.000686
+[2019.09.16-21.48.36:596][900]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap -0,475
+[2019.09.16-21.48.36:596][900]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.48.44:778][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.49.33:106][388]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.49.33:107][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.49.33:153][388]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.16-21.49.33:154][388]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.49.33:199][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.49.33:205][388]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2019.09.16-21.49.33:226][389]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.09.16-21.50.09:440][610]LogHotReload: New module detected: UE4Editor-SimplexNoise-0132.dll
+[2019.09.16-21.50.11:120][615]LogHotReload: New module detected: UE4Editor-CavesTaint-0132.dll
+[2019.09.16-21.50.12:141][619]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.16-21.50.12:191][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2019.09.16-21.50.12:191][619]LogBlueprintActionDatabase: Requesting refresh due to module change: SimplexNoise (unloaded)
+[2019.09.16-21.50.12:214][619]LogBlueprintActionDatabase: Requesting refresh due to module change: SimplexNoise (loaded)
+[2019.09.16-21.50.12:215][619]LogContentBrowser: Native class hierarchy updated for 'SimplexNoise' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2019.09.16-21.50.12:215][619]LogBlueprintActionDatabase: Requesting refresh due to module change: CavesTaint (unloaded)
+[2019.09.16-21.50.12:260][619]LogBlueprintActionDatabase: Requesting refresh due to module change: CavesTaint (loaded)
+[2019.09.16-21.50.12:260][619]LogContentBrowser: Native class hierarchy updated for 'CavesTaint' in 0.0005 seconds. Added 7 classes and 3 folders.
+[2019.09.16-21.50.12:266][619]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2019.09.16-21.50.12:378][619]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2019.09.16-21.50.12:378][619]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.16-21.50.12:397][619]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2741 classes and 667 folders.
+[2019.09.16-21.50.12:399][619]Display: HotReload took  0.3s.
+[2019.09.16-21.50.15:614][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.50.15:689][683]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-21.50.15:711][683]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.50.15:712][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-21.50.15:712][683]PIE: New page: PIE session: NewMap (17 wrz 2019, 01:50:15)
+[2019.09.16-21.50.15:712][683]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-21.50.15:716][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004686s)
+[2019.09.16-21.50.15:717][683]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-21.50.15:718][683]LogPlayLevel: PIE: World Init took: (0.001334s)
+[2019.09.16-21.50.15:718][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.006146s)
+[2019.09.16-21.50.15:807][683]LogUObjectHash: Compacting FUObjectHashTables data took   6.69ms
+[2019.09.16-21.50.15:820][683]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-21.50.15:843][683]LogInit: FAudioDevice initialized.
+[2019.09.16-21.50.15:875][683]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-21.50.15:877][683]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.16-23.50.15
+[2019.09.16-21.50.15:878][683]LogWorld: Bringing up level for play took: 0.001156
+[2019.09.16-21.50.15:892][683]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap 0,82
+[2019.09.16-21.50.15:892][683]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.50.21:904][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.50.36:024][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2019.09.16-21.50.39:400][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.50.46:142][582]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:142][582]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:174][584]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:174][584]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:205][586]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:205][586]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:220][587]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:220][587]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:235][588]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:235][588]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:251][589]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:251][589]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:267][590]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:267][590]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:282][591]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:282][591]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:298][592]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:298][592]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:313][593]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:313][593]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:343][595]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.46:344][595]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.50.47:722][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2019.09.16-21.50.49:568][782]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-21.52.24:249][517]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:249][517]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:279][519]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:279][519]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:295][520]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:295][520]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:326][522]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:326][522]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:341][523]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:341][523]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:371][525]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:371][525]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:387][526]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:387][526]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:416][528]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:416][528]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:432][529]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:432][529]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:463][531]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:463][531]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:477][532]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:477][532]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:507][534]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:508][534]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:523][535]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:523][535]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:553][537]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:553][537]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:584][539]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:584][539]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:614][541]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:614][541]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:660][544]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:660][544]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:675][545]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:675][545]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:706][547]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:706][547]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:721][548]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:721][548]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:750][550]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:750][550]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:780][552]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.24:780][552]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:084][572]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:084][572]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:099][573]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:099][573]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:130][575]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:130][575]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:145][576]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:145][576]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:160][577]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:160][577]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:176][578]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:176][578]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:191][579]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:191][579]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:207][580]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:207][580]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:221][581]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:221][581]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:237][582]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:237][582]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:251][583]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:251][583]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:266][584]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:266][584]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:281][585]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:281][585]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:297][586]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:297][586]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:327][588]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:327][588]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:343][589]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:343][589]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:357][590]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:357][590]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:374][591]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:374][591]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:388][592]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:388][592]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:403][593]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:403][593]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:418][594]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:418][594]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:433][595]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:433][595]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:448][596]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:448][596]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:463][597]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:463][597]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:479][598]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:479][598]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:510][600]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:510][600]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:540][602]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:540][602]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:615][607]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:615][607]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:676][611]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:676][611]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:812][620]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:812][620]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:827][621]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:827][621]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:843][622]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:843][622]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:858][623]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:858][623]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:873][624]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:873][624]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:889][625]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:889][625]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:903][626]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:903][626]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:917][627]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:917][627]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:933][628]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:933][628]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:948][629]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.25:948][629]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.26:100][639]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.26:100][639]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.26:191][645]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.26:191][645]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.26:419][660]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.26:419][660]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-21.52.31:095][847]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.16-21.53.45:440][560]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.53.45:441][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.53.45:474][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.16-21.53.45:474][560]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-21.53.45:521][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-21.53.45:528][560]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2019.09.16-21.53.45:560][561]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.09.16-21.55.13:606][903]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.09.16-21.55.13:607][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap" FILE="E:/Unreal Projects/CavesTaint/Saved/Autosaves/Game/Map/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.09.16-21.55.13:894][903]LogSavePackage: Moving 'E:/Unreal Projects/CavesTaint/Saved/NewMap_Auto19B6C0DBC448742CC7C4F84AAD0DA38B4.tmp' to 'E:/Unreal Projects/CavesTaint/Saved/Autosaves/Game/Map/NewMap_Auto1.umap'
+[2019.09.16-21.55.13:898][903]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/NewMap' took 0.332
+[2019.09.16-21.55.13:898][903]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.332
+[2019.09.16-21.58.49:896][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/User/UserCharacterBP" FILE="E:/Unreal Projects/CavesTaint/Content/User/UserCharacterBP.uasset" SILENT=true
+[2019.09.16-21.58.49:927][819]LogSavePackage: Moving 'E:/Unreal Projects/CavesTaint/Saved/UserCharacterBP39AEC6C1404150842AABB8B044AC4AF0.tmp' to 'E:/Unreal Projects/CavesTaint/Content/User/UserCharacterBP.uasset'
+[2019.09.16-22.00.19:408][450]LogHotReload: New module detected: UE4Editor-SimplexNoise-0133.dll
+[2019.09.16-22.00.20:413][453]LogHotReload: New module detected: UE4Editor-CavesTaint-0133.dll
+[2019.09.16-22.00.21:773][458]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.16-22.00.21:837][458]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2019.09.16-22.00.21:837][458]LogBlueprintActionDatabase: Requesting refresh due to module change: SimplexNoise (unloaded)
+[2019.09.16-22.00.21:861][458]LogBlueprintActionDatabase: Requesting refresh due to module change: SimplexNoise (loaded)
+[2019.09.16-22.00.21:861][458]LogContentBrowser: Native class hierarchy updated for 'SimplexNoise' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2019.09.16-22.00.21:861][458]LogBlueprintActionDatabase: Requesting refresh due to module change: CavesTaint (unloaded)
+[2019.09.16-22.00.21:918][458]LogBlueprintActionDatabase: Requesting refresh due to module change: CavesTaint (loaded)
+[2019.09.16-22.00.21:918][458]LogContentBrowser: Native class hierarchy updated for 'CavesTaint' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2019.09.16-22.00.21:924][458]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2019.09.16-22.00.22:040][458]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.09.16-22.00.22:040][458]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.16-22.00.22:058][458]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2741 classes and 667 folders.
+[2019.09.16-22.00.22:060][458]Display: HotReload took  0.3s.
+[2019.09.16-22.01.31:845][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.01.31:909][722]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-22.01.31:932][722]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.01.31:932][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-22.01.31:932][722]PIE: New page: PIE session: NewMap (17 wrz 2019, 02:01:31)
+[2019.09.16-22.01.31:932][722]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-22.01.31:935][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003326s)
+[2019.09.16-22.01.31:936][722]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-22.01.31:936][722]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2019.09.16-22.01.31:937][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.004581s)
+[2019.09.16-22.01.32:039][722]LogUObjectHash: Compacting FUObjectHashTables data took   6.79ms
+[2019.09.16-22.01.32:052][722]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-22.01.32:079][722]LogInit: FAudioDevice initialized.
+[2019.09.16-22.01.32:112][722]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-22.01.32:114][722]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.17-00.01.32
+[2019.09.16-22.01.32:114][722]LogWorld: Bringing up level for play took: 0.000708
+[2019.09.16-22.01.32:128][722]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap 1,057
+[2019.09.16-22.01.32:128][722]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.01.35:994][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.01.40:523][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2019.09.16-22.01.41:529][302]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:529][302]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:544][303]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:544][303]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:558][304]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:559][304]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:576][305]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:576][305]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:591][306]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:591][306]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:606][307]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:606][307]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:620][308]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:620][308]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:635][309]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:635][309]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:652][310]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:652][310]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:666][311]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:666][311]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:696][313]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.41:698][313]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.44:139][466]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.01.45:076][530]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.48:730][767]PIE: Warning: Mobility of /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.Shape_Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.09.16-22.01.49:740][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2019.09.16-22.01.58:714][216]LogEditorViewport: Clicking on Actor (context menu): Rock (Rock1)
+[2019.09.16-22.01.58:764][216]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.16-22.01.59:647][303]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.09.16-22.02.00:190][327]LogEditorViewport: Clicking on Actor (LMB): Rock (Rock1)
+[2019.09.16-22.02.02:058][439]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.02.02:059][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-22.02.02:100][439]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.16-22.02.02:101][439]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.02.02:157][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-22.02.02:183][439]LogUObjectHash: Compacting FUObjectHashTables data took   5.22ms
+[2019.09.16-22.02.02:211][440]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.09.16-22.02.03:733][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.02.07:615][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2019.09.16-22.02.07:991][847]Cmd: DELETE
+[2019.09.16-22.02.07:991][847]Cmd: ACTOR DELETE
+[2019.09.16-22.02.08:147][847]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.16-22.02.08:187][847]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2019.09.16-22.02.08:188][847]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2019.09.16-22.03.59:912][291]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.03.59:999][297]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-22.04.00:024][297]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.04.00:024][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-22.04.00:024][297]PIE: New page: PIE session: NewMap (17 wrz 2019, 02:04:00)
+[2019.09.16-22.04.00:024][297]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-22.04.00:027][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003049s)
+[2019.09.16-22.04.00:028][297]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-22.04.00:028][297]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2019.09.16-22.04.00:028][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.004132s)
+[2019.09.16-22.04.00:068][297]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2019.09.16-22.04.00:082][297]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-22.04.00:105][297]LogInit: FAudioDevice initialized.
+[2019.09.16-22.04.00:135][297]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-22.04.00:136][297]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.17-00.04.00
+[2019.09.16-22.04.00:136][297]LogWorld: Bringing up level for play took: 0.000579
+[2019.09.16-22.04.00:150][297]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap 1,079
+[2019.09.16-22.04.00:150][297]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.04.01:832][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.04.01:833][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-22.04.01:873][423]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.16-22.04.01:874][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.04.01:923][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-22.04.01:929][423]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2019.09.16-22.04.01:961][424]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.09.16-22.04.02:632][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.04.02:733][479]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-22.04.02:751][479]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.04.02:751][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-22.04.02:751][479]PIE: New page: PIE session: NewMap (17 wrz 2019, 02:04:02)
+[2019.09.16-22.04.02:751][479]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-22.04.02:755][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003823s)
+[2019.09.16-22.04.02:756][479]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-22.04.02:756][479]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2019.09.16-22.04.02:756][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.005008s)
+[2019.09.16-22.04.02:793][479]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.09.16-22.04.02:805][479]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-22.04.02:829][479]LogInit: FAudioDevice initialized.
+[2019.09.16-22.04.02:855][479]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-22.04.02:856][479]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.17-00.04.02
+[2019.09.16-22.04.02:856][479]LogWorld: Bringing up level for play took: 0.000599
+[2019.09.16-22.04.02:871][479]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap -0,2
+[2019.09.16-22.04.02:871][479]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.04.16:757][369]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.04.16:758][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-22.04.16:803][369]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.16-22.04.16:804][369]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.04.16:844][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-22.04.16:850][369]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2019.09.16-22.04.16:866][370]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.09.16-22.06.00:377][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.09.16-22.06.00:377][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap" FILE="E:/Unreal Projects/CavesTaint/Saved/Autosaves/Game/Map/NewMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.09.16-22.06.00:747][707]LogSavePackage: Moving 'E:/Unreal Projects/CavesTaint/Saved/NewMap_Auto20CC0CB894E615D9E41CE509BC4AEFD52.tmp' to 'E:/Unreal Projects/CavesTaint/Saved/Autosaves/Game/Map/NewMap_Auto2.umap'
+[2019.09.16-22.06.00:750][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/NewMap' took 0.423
+[2019.09.16-22.06.00:750][707]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.423
+[2019.09.16-22.08.17:191][116]LogHotReload: New module detected: UE4Editor-SimplexNoise-0134.dll
+[2019.09.16-22.08.24:890][140]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.16-22.08.24:946][140]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2019.09.16-22.08.24:946][140]LogBlueprintActionDatabase: Requesting refresh due to module change: SimplexNoise (unloaded)
+[2019.09.16-22.08.24:962][140]LogBlueprintActionDatabase: Requesting refresh due to module change: SimplexNoise (loaded)
+[2019.09.16-22.08.24:962][140]LogContentBrowser: Native class hierarchy updated for 'SimplexNoise' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2019.09.16-22.08.24:968][140]Display: HotReload successful (13 functions remapped  0 scriptstructs remapped)
+[2019.09.16-22.08.25:088][140]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2019.09.16-22.08.25:088][140]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.16-22.08.25:107][140]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2741 classes and 667 folders.
+[2019.09.16-22.08.25:110][140]Display: HotReload took  0.2s.
+[2019.09.16-22.12.03:317][791]LogHotReload: New module detected: UE4Editor-SimplexNoise-0135.dll
+[2019.09.16-22.12.04:990][796]LogHotReload: New module detected: UE4Editor-CavesTaint-0135.dll
+[2019.09.16-22.12.06:013][800]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.16-22.12.06:106][800]LogUObjectHash: Compacting FUObjectHashTables data took   7.07ms
+[2019.09.16-22.12.06:107][800]LogBlueprintActionDatabase: Requesting refresh due to module change: SimplexNoise (unloaded)
+[2019.09.16-22.12.06:134][800]LogBlueprintActionDatabase: Requesting refresh due to module change: SimplexNoise (loaded)
+[2019.09.16-22.12.06:134][800]LogContentBrowser: Native class hierarchy updated for 'SimplexNoise' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2019.09.16-22.12.06:134][800]LogBlueprintActionDatabase: Requesting refresh due to module change: CavesTaint (unloaded)
+[2019.09.16-22.12.06:181][800]LogBlueprintActionDatabase: Requesting refresh due to module change: CavesTaint (loaded)
+[2019.09.16-22.12.06:181][800]LogContentBrowser: Native class hierarchy updated for 'CavesTaint' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2019.09.16-22.12.06:187][800]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2019.09.16-22.12.06:329][800]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2019.09.16-22.12.06:329][800]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.16-22.12.06:347][800]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2741 classes and 667 folders.
+[2019.09.16-22.12.06:350][800]Display: HotReload took  0.3s.
+[2019.09.16-22.13.58:960][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.13.59:076][221]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-22.13.59:100][221]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.13.59:100][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-22.13.59:100][221]PIE: New page: PIE session: NewMap (17 wrz 2019, 02:13:59)
+[2019.09.16-22.13.59:100][221]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-22.13.59:103][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002780s)
+[2019.09.16-22.13.59:104][221]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-22.13.59:105][221]LogPlayLevel: PIE: World Init took: (0.001427s)
+[2019.09.16-22.13.59:105][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.004407s)
+[2019.09.16-22.13.59:192][221]LogUObjectHash: Compacting FUObjectHashTables data took   5.63ms
+[2019.09.16-22.13.59:204][221]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-22.13.59:227][221]LogInit: FAudioDevice initialized.
+[2019.09.16-22.13.59:254][221]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-22.13.59:256][221]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.17-00.13.59
+[2019.09.16-22.13.59:256][221]LogWorld: Bringing up level for play took: 0.000672
+[2019.09.16-22.13.59:270][221]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap 0,199
+[2019.09.16-22.13.59:270][221]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.14.01:325][361]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.14.01:325][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-22.14.01:366][361]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.16-22.14.01:367][361]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.14.01:412][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-22.14.01:433][361]LogUObjectHash: Compacting FUObjectHashTables data took   6.23ms
+[2019.09.16-22.14.01:462][362]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.09.16-22.16.53:957][ 15]LogHotReload: New module detected: UE4Editor-SimplexNoise-0136.dll
+[2019.09.16-22.16.55:296][ 19]LogHotReload: New module detected: UE4Editor-CavesTaint-0136.dll
+[2019.09.16-22.16.56:315][ 23]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.16-22.16.56:364][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.09.16-22.16.56:364][ 23]LogBlueprintActionDatabase: Requesting refresh due to module change: SimplexNoise (unloaded)
+[2019.09.16-22.16.56:385][ 23]LogBlueprintActionDatabase: Requesting refresh due to module change: SimplexNoise (loaded)
+[2019.09.16-22.16.56:385][ 23]LogContentBrowser: Native class hierarchy updated for 'SimplexNoise' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2019.09.16-22.16.56:385][ 23]LogBlueprintActionDatabase: Requesting refresh due to module change: CavesTaint (unloaded)
+[2019.09.16-22.16.56:429][ 23]LogBlueprintActionDatabase: Requesting refresh due to module change: CavesTaint (loaded)
+[2019.09.16-22.16.56:430][ 23]LogContentBrowser: Native class hierarchy updated for 'CavesTaint' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2019.09.16-22.16.56:436][ 23]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2019.09.16-22.16.56:555][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2019.09.16-22.16.56:555][ 23]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.16-22.16.56:578][ 23]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2741 classes and 667 folders.
+[2019.09.16-22.16.56:581][ 23]Display: HotReload took  0.3s.
+[2019.09.16-22.17.02:294][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.17.07:688][588]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.17.07:774][594]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-22.17.07:797][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.17.07:797][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-22.17.07:797][594]PIE: New page: PIE session: NewMap (17 wrz 2019, 02:17:07)
+[2019.09.16-22.17.07:797][594]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-22.17.07:800][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002898s)
+[2019.09.16-22.17.07:801][594]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-22.17.07:801][594]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2019.09.16-22.17.07:801][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.004164s)
+[2019.09.16-22.17.07:892][594]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2019.09.16-22.17.07:905][594]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-22.17.07:928][594]LogInit: FAudioDevice initialized.
+[2019.09.16-22.17.07:958][594]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-22.17.07:960][594]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.17-00.17.07
+[2019.09.16-22.17.07:960][594]LogWorld: Bringing up level for play took: 0.000607
+[2019.09.16-22.17.07:974][594]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap 0,903
+[2019.09.16-22.17.07:974][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.17.11:963][873]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.17.15:749][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.17.22:556][645]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.17.22:557][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-22.17.22:599][645]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.16-22.17.22:600][645]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.17.22:653][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-22.17.22:677][645]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2019.09.16-22.17.22:693][646]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.09.16-22.17.23:481][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.17.24:788][774]LogEditorViewport: Clicking on Actor (LMB): ChunkBP_C (ChunkBP)
+[2019.09.16-22.17.30:063][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.17.35:065][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.17.36:554][617]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-22.17.36:566][617]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.17.36:567][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-22.17.36:567][617]PIE: New page: PIE session: NewMap (17 wrz 2019, 02:17:36)
+[2019.09.16-22.17.36:567][617]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-22.17.36:570][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002757s)
+[2019.09.16-22.17.36:570][617]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-22.17.36:571][617]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2019.09.16-22.17.36:571][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.003549s)
+[2019.09.16-22.17.36:609][617]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2019.09.16-22.17.36:624][617]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-22.17.36:646][617]LogInit: FAudioDevice initialized.
+[2019.09.16-22.17.36:676][617]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-22.17.36:677][617]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.17-00.17.36
+[2019.09.16-22.17.36:678][617]LogWorld: Bringing up level for play took: 0.000611
+[2019.09.16-22.17.36:692][617]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap -0,379
+[2019.09.16-22.17.36:692][617]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.17.42:279][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.17.45:669][385]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.09.16-22.17.49:915][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-22.17.50:869][713]Cmd: DELETE
+[2019.09.16-22.17.50:869][713]Cmd: ACTOR DELETE
+[2019.09.16-22.17.50:871][713]LogEditorActor: Deleted Actor: Rock
+[2019.09.16-22.17.50:909][713]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.09.16-22.17.50:910][713]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2019.09.16-22.18.01:344][434]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.18.01:344][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-22.18.01:391][434]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.16-22.18.01:391][434]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.18.01:437][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-22.18.01:442][434]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.09.16-22.18.01:458][435]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.09.16-22.18.36:225][559]LogHotReload: New module detected: UE4Editor-SimplexNoise-0137.dll
+[2019.09.16-22.18.37:231][562]LogHotReload: New module detected: UE4Editor-CavesTaint-0137.dll
+[2019.09.16-22.18.38:583][567]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.16-22.18.38:630][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.09.16-22.18.38:630][567]LogBlueprintActionDatabase: Requesting refresh due to module change: SimplexNoise (unloaded)
+[2019.09.16-22.18.38:651][567]LogBlueprintActionDatabase: Requesting refresh due to module change: SimplexNoise (loaded)
+[2019.09.16-22.18.38:652][567]LogContentBrowser: Native class hierarchy updated for 'SimplexNoise' in 0.0005 seconds. Added 1 classes and 3 folders.
+[2019.09.16-22.18.38:652][567]LogBlueprintActionDatabase: Requesting refresh due to module change: CavesTaint (unloaded)
+[2019.09.16-22.18.38:695][567]LogBlueprintActionDatabase: Requesting refresh due to module change: CavesTaint (loaded)
+[2019.09.16-22.18.38:695][567]LogContentBrowser: Native class hierarchy updated for 'CavesTaint' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2019.09.16-22.18.38:701][567]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2019.09.16-22.18.38:807][567]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2019.09.16-22.18.38:807][567]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.16-22.18.38:826][567]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2741 classes and 667 folders.
+[2019.09.16-22.18.38:828][567]Display: HotReload took  0.2s.
+[2019.09.16-22.18.50:572][602]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.16-22.18.51:339][643]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.16-22.18.51:356][643]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.09.16-22.18.51:356][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-22.18.51:356][643]PIE: New page: PIE session: NewMap (17 wrz 2019, 02:18:51)
+[2019.09.16-22.18.51:357][643]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2019.09.16-22.18.51:359][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002608s)
+[2019.09.16-22.18.51:360][643]LogAIModule: Creating AISystem for world NewMap
+[2019.09.16-22.18.51:360][643]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2019.09.16-22.18.51:360][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.003540s)
+[2019.09.16-22.18.51:447][643]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2019.09.16-22.18.51:460][643]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.16-22.18.51:482][643]LogInit: FAudioDevice initialized.
+[2019.09.16-22.18.51:514][643]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2019.09.16-22.18.51:515][643]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.09.17-00.18.51
+[2019.09.16-22.18.51:516][643]LogWorld: Bringing up level for play took: 0.000709

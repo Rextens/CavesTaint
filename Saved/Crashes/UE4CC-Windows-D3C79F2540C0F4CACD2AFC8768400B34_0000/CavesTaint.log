@@ -1,0 +1,808 @@
+﻿Log file open, 04/01/20 14:05:31
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: CavesTaint
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.289988
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Warning: Engine version string in E:/Unreal Projects/CavesTaint/Plugins/SimplexNoise/SimplexNoise.uplugin could not be parsed ("4.10")
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin DirGravity
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin SimplexNoise
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1809) (), CPU:       Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz, GPU: NVIDIA GeForce GTX 650
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Engine.ini]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Engine.ini]
+[2020.04.01-12.05.32:222][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Engine.ini]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Engine.ini]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.01-12.05.32:222][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Engine.ini]
+[2020.04.01-12.05.32:222][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Engine.ini]
+[2020.04.01-12.05.32:229][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2020.04.01-12.05.32:229][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.01-12.05.32:229][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.01-12.05.32:229][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2020.04.01-12.05.32:229][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.01-12.05.32:229][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2020.04.01-12.05.32:229][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.01-12.05.32:229][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.01-12.05.32:229][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.01-12.05.32:229][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.01-12.05.32:229][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.01-12.05.32:229][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.01-12.05.32:229][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.01-12.05.32:229][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.01-12.05.32:229][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.01-12.05.32:229][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.01-12.05.32:230][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.01-12.05.32:231][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.01-12.05.32:231][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.01-12.05.32:241][  0]LogHAL: Display: Platform has ~ 16 GB [17110401024 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.04.01-12.05.32:241][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.01-12.05.32:241][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.01-12.05.32:241][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Scalability.ini]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.01-12.05.32:242][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Unreal Projects/CavesTaint/Saved/Config/Windows/Engine.ini]
+[2020.04.01-12.05.32:242][  0]LogInit: Computer: DESKTOP-72VFA2G
+[2020.04.01-12.05.32:242][  0]LogInit: User: PC
+[2020.04.01-12.05.32:242][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.01-12.05.32:242][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.01-12.05.32:243][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.01-12.05.32:243][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.01-12.05.32:243][  0]LogMemory: Process Physical Memory: 97.13 MB used, 97.14 MB peak
+[2020.04.01-12.05.32:243][  0]LogMemory: Process Virtual Memory: 92.58 MB used, 92.58 MB peak
+[2020.04.01-12.05.32:243][  0]LogMemory: Physical Memory: 7715.62 MB used,  8602.13 MB free, 16317.75 MB total
+[2020.04.01-12.05.32:243][  0]LogMemory: Virtual Memory: 4660.11 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2020.04.01-12.05.32:274][  0]LogInit: Using OS detected language (pl-PL).
+[2020.04.01-12.05.32:274][  0]LogInit: Using OS detected locale (pl-PL).
+[2020.04.01-12.05.32:275][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2020.04.01-12.05.32:275][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2020.04.01-12.05.32:275][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2020.04.01-12.05.32:275][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2020.04.01-12.05.32:276][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2020.04.01-12.05.32:276][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2020.04.01-12.05.32:276][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2020.04.01-12.05.32:276][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2020.04.01-12.05.32:277][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.01-12.05.32:313][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.01-12.05.32:313][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.01-12.05.32:507][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.01-12.05.32:507][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.01-12.05.32:598][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 650' (Feature Level 11_0)
+[2020.04.01-12.05.32:598][  0]LogD3D11RHI:       2007/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.04.01-12.05.32:600][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.01-12.05.32:600][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.01-12.05.32:600][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.01-12.05.32:611][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.01-12.05.32:611][  0]LogD3D11RHI:     GPU DeviceId: 0xfc6 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.01-12.05.32:611][  0]LogWindows: EnumDisplayDevices:
+[2020.04.01-12.05.32:611][  0]LogWindows:    0. 'NVIDIA GeForce GTX 650' (P:1 D:1)
+[2020.04.01-12.05.32:612][  0]LogWindows:    1. 'NVIDIA GeForce GTX 650' (P:0 D:1)
+[2020.04.01-12.05.32:612][  0]LogWindows:    2. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2020.04.01-12.05.32:613][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2020.04.01-12.05.32:613][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 650
+[2020.04.01-12.05.32:613][  0]LogD3D11RHI:   Driver Version: 436.02 (internal:26.21.14.3602, unified:436.02)
+[2020.04.01-12.05.32:613][  0]LogD3D11RHI:      Driver Date: 8-16-2019
+[2020.04.01-12.05.32:613][  0]LogRHI: Texture pool is 1404 MB (70% of 2007 MB)
+[2020.04.01-12.05.32:670][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.01-12.05.32:682][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.01-12.05.32:683][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.01-12.05.32:683][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.01-12.05.32:692][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.01-12.05.33:156][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.04.01-12.05.33:171][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.04.01-12.05.33:187][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.04.01-12.05.33:203][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.04.01-12.05.33:219][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.04.01-12.05.33:234][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.04.01-12.05.33:251][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.01-12.05.33:267][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.04.01-12.05.33:274][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.04.01-12.05.33:368][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.04.01-12.05.33:369][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.04.01-12.05.33:370][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.04.01-12.05.33:424][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.04.01-12.05.33:424][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.04.01-12.05.33:458][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.04.01-12.05.33:458][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.04.01-12.05.33:478][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.04.01-12.05.33:502][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.01-12.05.33:516][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.04.01-12.05.33:533][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.04.01-12.05.33:597][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.04.01-12.05.33:597][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.04.01-12.05.33:597][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.01-12.05.33:606][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.01-12.05.33:654][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (E:/Unreal Projects/CavesTaint/Intermediate/Shaders/WorkingDirectory/14664/).
+[2020.04.01-12.05.33:655][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PC/AppData/Local/Temp/UnrealShaderWorkingDir/D575CB2B4F57C01A039F13A78481ABEC/'.
+[2020.04.01-12.05.33:657][  0]LogXGEController: Cleaning working directory: C:/Users/PC/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.01-12.05.33:657][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.01-12.05.33:657][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.01-12.05.33:657][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.01-12.05.34:307][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.01-12.05.34:362][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/PC/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.04.01-12.05.34:362][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/PC/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.04.01-12.05.34:362][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal Projects/CavesTaint/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.01-12.05.34:362][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.01-12.05.34:362][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal Projects/CavesTaint/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.01-12.05.34:362][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.01-12.05.34:375][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.01-12.05.34:376][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.01-12.05.34:376][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.01-12.05.34:389][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.01-12.05.34:389][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.01-12.05.34:389][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.01-12.05.34:416][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.01-12.05.34:417][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.01-12.05.34:418][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.01-12.05.34:525][  0]LogAssetRegistry: FAssetRegistry took 0.0402 seconds to start up
+[2020.04.01-12.05.34:991][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.01-12.05.35:174][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.01-12.05.35:174][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.01-12.05.35:174][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.01-12.05.35:174][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.01-12.05.35:174][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.01-12.05.35:187][  0]LogNetVersion: CavesTaint 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4193650340)
+[2020.04.01-12.05.35:825][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.094292 seconds
+[2020.04.01-12.05.35:836][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.04.01-12.05.35:836][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.04.01-12.05.35:836][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.01-12.05.36:910][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.01-12.05.36:923][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.01-12.05.37:062][  0]SourceControl: Source control is disabled
+[2020.04.01-12.05.37:062][  0]SourceControl: Source control is disabled
+[2020.04.01-12.05.37:063][  0]SourceControl: Source control is disabled
+[2020.04.01-12.05.37:065][  0]SourceControl: Source control is disabled
+[2020.04.01-12.05.37:176][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.01-12.05.37:336][  0]LogOcInput: OculusInput pre-init called
+[2020.04.01-12.05.38:192][  0]LogEngine: Initializing Engine...
+[2020.04.01-12.05.38:194][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.01-12.05.38:195][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.01-12.05.38:461][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.01-12.05.38:481][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.01-12.05.38:510][  0]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.01-12.05.38:552][  0]LogInit: FAudioDevice initialized.
+[2020.04.01-12.05.38:552][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.01-12.05.38:679][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/PC/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.04.01-12.05.38:687][  0]LogInit: Texture streaming: Enabled
+[2020.04.01-12.05.38:715][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.01-12.05.38:715][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={70D20C7B-4EBF-4216-FEF1-ACBDC057A6E2}
+[2020.04.01-12.05.38:739][  0]LogInit: Transaction tracking system initialized
+[2020.04.01-12.05.38:772][  0]BlueprintLog: New page: Editor Load
+[2020.04.01-12.05.38:875][  0]LocalizationService: Localization service is disabled
+[2020.04.01-12.05.39:236][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/CavesTaint/Content/' took 0.02s
+[2020.04.01-12.05.39:236][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.01-12.05.39:236][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.01-12.05.39:456][  0]SourceControl: Source control is disabled
+[2020.04.01-12.05.39:456][  0]Cmd: MAP LOAD FILE="E:/Unreal Projects/CavesTaint/Content/Map/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.01-12.05.39:457][  0]LightingResults: New page: Lighting Build
+[2020.04.01-12.05.39:459][  0]MapCheck: New page: Map Check
+[2020.04.01-12.05.39:459][  0]LightingResults: New page: Lighting Build
+[2020.04.01-12.05.39:487][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.04.01-12.05.39:610][  0]LogAIModule: Creating AISystem for world NewMap
+[2020.04.01-12.05.39:615][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.01-12.05.39:643][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.04.01-12.05.39:643][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.01-12.05.39:644][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,128ms to complete.
+[2020.04.01-12.05.39:644][  0]LogFileHelpers: Loading map 'NewMap' took 0.187
+[2020.04.01-12.05.39:759][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.01-12.05.39:774][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.01-12.05.39:787][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.01-12.05.39:797][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.01-12.05.39:807][  0]LogCollectionManager: Loaded 0 collections in 0.002106 seconds
+[2020.04.01-12.05.39:850][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/CavesTaint/Saved/Collections/' took 0.01s
+[2020.04.01-12.05.39:850][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/CavesTaint/Content/Developers/PC/Collections/' took 0.01s
+[2020.04.01-12.05.39:850][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/CavesTaint/Content/Collections/' took 0.01s
+[2020.04.01-12.05.39:850][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.04.01-12.05.39:861][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2744 classes and 668 folders.
+[2020.04.01-12.05.39:870][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.01-12.05.39:871][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:872][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:874][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:874][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:875][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:876][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:876][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:877][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:877][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:877][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:878][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:878][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:879][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:879][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:880][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:881][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:882][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:883][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:884][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:884][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:885][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:886][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:888][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.01-12.05.39:919][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.01-12.05.39:926][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.04.01-12.05.39:950][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.01-12.05.39:952][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.01-12.05.39:960][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.01-12.05.40:044][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2020.04.01-12.05.40:304][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.01-12.05.40:305][  0]LogLoad: (Engine Initialization) Total time: 9.90 seconds
+[2020.04.01-12.05.40:305][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.01-12.05.40:356][  0]LogAssetRegistry: Asset discovery search completed in 5.8549 seconds
+[2020.04.01-12.05.40:360][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.04.01-12.05.40:360][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000074 seconds (updated 0 objects)
+[2020.04.01-12.05.40:363][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.01-12.05.40:405][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.01-12.06.57:738][231]LogHotReload: New module detected: UE4Editor-SimplexNoise-0025.dll
+[2020.04.01-12.07.06:146][256]LogHotReload: New module detected: UE4Editor-CavesTaint-0025.dll
+[2020.04.01-12.07.07:839][262]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.01-12.07.07:842][262]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.01-12.07.07:886][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.04.01-12.07.07:898][262]LogContentBrowser: Native class hierarchy updated for 'SimplexNoise' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2020.04.01-12.07.07:950][262]LogContentBrowser: Native class hierarchy updated for 'CavesTaint' in 0.0005 seconds. Added 9 classes and 3 folders.
+[2020.04.01-12.07.07:953][262]Display: HotReload successful (25 functions remapped  0 scriptstructs remapped)
+[2020.04.01-12.07.08:075][262]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.04.01-12.07.08:090][262]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2745 classes and 670 folders.
+[2020.04.01-12.07.08:094][262]Display: HotReload took  0.3s.
+[2020.04.01-12.07.12:644][320]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.01-12.07.12:765][333]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.01-12.07.12:783][333]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2020.04.01-12.07.12:783][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.01-12.07.12:784][333]PIE: New page: PIE session: NewMap (1 kwi 2020, 16:07:12)
+[2020.04.01-12.07.12:796][333]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2020.04.01-12.07.12:799][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003098s)
+[2020.04.01-12.07.12:800][333]LogAIModule: Creating AISystem for world NewMap
+[2020.04.01-12.07.12:800][333]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2020.04.01-12.07.12:801][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.004544s)
+[2020.04.01-12.07.12:822][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.04.01-12.07.12:836][333]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.01-12.07.12:862][333]LogInit: FAudioDevice initialized.
+[2020.04.01-12.07.13:120][333]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2020.04.01-12.07.13:123][333]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2020.04.01-14.07.13
+[2020.04.01-12.07.13:124][333]LogWorld: Bringing up level for play took: 0.001429
+[2020.04.01-12.07.13:168][333]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.04.01-12.07.13:172][333]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap 0,926
+[2020.04.01-12.07.13:172][333]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2020.04.01-12.07.13:173][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.13:282][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.13:378][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.13:419][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.13:427][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.13:525][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.13:633][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.13:679][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.13:688][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.13:787][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.13:904][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.13:948][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.13:957][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:069][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:176][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:222][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:230][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:332][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:433][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:453][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:462][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:561][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:657][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:676][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:685][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:781][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:877][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:896][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.14:905][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:003][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:101][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:121][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:129][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:228][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:319][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:329][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:338][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:435][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:533][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:543][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:552][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:654][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:743][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:754][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:763][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:862][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:964][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:975][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.15:983][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:088][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:159][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:171][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:180][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:296][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:368][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:377][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:386][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:491][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:556][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:567][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:584][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:695][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:781][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.16:790][333]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.07.18:035][398]LogTemp: Warning: RampVector X=-nan(ind) Y=-nan(ind) Z=-nan(ind)    delta X=0.000 Y=0.000 Z=0.000      velocity X=0.000 Y=0.000 Z=-1438.210
+[2020.04.01-12.07.20:442][577]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2020.04.01-12.07.20:466][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.01-12.07.20:510][577]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.01-12.07.20:510][577]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2020.04.01-12.07.20:575][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.01-12.07.20:582][577]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.04.01-12.07.20:611][578]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.04.01-12.07.49:554][729]LogHotReload: New module detected: UE4Editor-SimplexNoise-0026.dll
+[2020.04.01-12.08.00:293][761]LogHotReload: New module detected: UE4Editor-CavesTaint-0026.dll
+[2020.04.01-12.08.02:332][768]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.01-12.08.02:377][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.04.01-12.08.02:393][768]LogContentBrowser: Native class hierarchy updated for 'SimplexNoise' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2020.04.01-12.08.02:453][768]LogContentBrowser: Native class hierarchy updated for 'CavesTaint' in 0.0004 seconds. Added 9 classes and 3 folders.
+[2020.04.01-12.08.02:460][768]Display: HotReload successful (25 functions remapped  0 scriptstructs remapped)
+[2020.04.01-12.08.02:527][768]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.04.01-12.08.02:546][768]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2745 classes and 670 folders.
+[2020.04.01-12.08.02:548][768]Display: HotReload took  0.2s.
+[2020.04.01-12.08.11:853][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.01-12.08.11:981][832]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.01-12.08.11:997][832]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2020.04.01-12.08.11:998][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.01-12.08.11:998][832]PIE: New page: PIE session: NewMap (1 kwi 2020, 16:08:11)
+[2020.04.01-12.08.11:998][832]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2020.04.01-12.08.12:001][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002796s)
+[2020.04.01-12.08.12:001][832]LogAIModule: Creating AISystem for world NewMap
+[2020.04.01-12.08.12:024][832]LogPlayLevel: PIE: World Init took: (0.022938s)
+[2020.04.01-12.08.12:024][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.025921s)
+[2020.04.01-12.08.12:047][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.04.01-12.08.12:061][832]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.01-12.08.12:086][832]LogInit: FAudioDevice initialized.
+[2020.04.01-12.08.12:114][832]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2020.04.01-12.08.12:115][832]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2020.04.01-14.08.12
+[2020.04.01-12.08.12:116][832]LogWorld: Bringing up level for play took: 0.000602
+[2020.04.01-12.08.12:131][832]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap -0,113
+[2020.04.01-12.08.12:131][832]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2020.04.01-12.08.12:132][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:139][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:151][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:158][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:168][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:182][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:195][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:202][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:213][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:223][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:230][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:237][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:244][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:252][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:259][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:266][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:273][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:280][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:287][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:293][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:301][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:308][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:314][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:321][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:330][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:337][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:343][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:350][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:357][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:363][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:370][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:377][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:384][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:390][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:397][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:404][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:411][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:418][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:424][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:431][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:439][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:450][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:457][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:464][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:470][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:477][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:484][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:491][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:498][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:505][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:512][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:519][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:529][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:536][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:543][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:555][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:564][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:572][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:583][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:590][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:597][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:604][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:611][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.12:618][832]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.01-12.08.13:793][896]LogTemp: Warning: RampVector X=-nan(ind) Y=-nan(ind) Z=-nan(ind)    delta X=0.000 Y=0.000 Z=0.000      velocity X=0.000 Y=0.000 Z=-1318.977
+[2020.04.01-12.08.14:300][933]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2020.04.01-12.08.14:300][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.01-12.08.14:346][933]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.01-12.08.14:346][933]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2020.04.01-12.08.14:374][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.01-12.08.14:377][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.04.01-12.08.14:410][934]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.04.01-12.08.27:783][994]LogHotReload: New module detected: UE4Editor-SimplexNoise-0027.dll
+[2020.04.01-12.08.37:838][ 24]LogHotReload: New module detected: UE4Editor-CavesTaint-0027.dll
+[2020.04.01-12.08.39:538][ 30]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.01-12.08.39:573][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.04.01-12.08.39:587][ 30]LogContentBrowser: Native class hierarchy updated for 'SimplexNoise' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2020.04.01-12.08.39:650][ 30]LogContentBrowser: Native class hierarchy updated for 'CavesTaint' in 0.0004 seconds. Added 9 classes and 3 folders.
+[2020.04.01-12.08.39:653][ 30]Display: HotReload successful (25 functions remapped  0 scriptstructs remapped)
+[2020.04.01-12.08.39:713][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.04.01-12.08.39:730][ 30]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2745 classes and 670 folders.
+[2020.04.01-12.08.39:732][ 30]Display: HotReload took  0.2s.
+[2020.04.01-12.08.42:783][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.01-12.08.42:888][ 51]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.01-12.08.42:902][ 51]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2020.04.01-12.08.42:902][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.01-12.08.42:902][ 51]PIE: New page: PIE session: NewMap (1 kwi 2020, 16:08:42)
+[2020.04.01-12.08.42:903][ 51]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_NewMap
+[2020.04.01-12.08.42:907][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004069s)
+[2020.04.01-12.08.42:907][ 51]LogAIModule: Creating AISystem for world NewMap
+[2020.04.01-12.08.42:908][ 51]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2020.04.01-12.08.42:908][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/NewMap.NewMap to /Game/Map/UEDPIE_0_NewMap.NewMap (0.005142s)
+[2020.04.01-12.08.42:930][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.04.01-12.08.42:951][ 51]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.01-12.08.42:975][ 51]LogInit: FAudioDevice initialized.
+[2020.04.01-12.08.43:008][ 51]LogLoad: Game class is 'UserGameModeBaseBP_C'
+[2020.04.01-12.08.43:009][ 51]LogWorld: Bringing World /Game/Map/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2020.04.01-14.08.43
+[2020.04.01-12.08.43:010][ 51]LogWorld: Bringing up level for play took: 0.000625
+[2020.04.01-12.08.43:024][ 51]PIE: Play in editor start time for /Game/Map/UEDPIE_0_NewMap 0,78
+[2020.04.01-12.08.43:024][ 51]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Map/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Map/NewMap.NewMap:PersistentLevel.NewMap'
+[2020.04.01-12.08.43:025][ 51]LogActor: Warning: ChunkBP_C /Game/Map/UEDPIE_0_NewMap.NewMap:PersistentLevel.ChunkBP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
