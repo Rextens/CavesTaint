@@ -11,6 +11,15 @@ AChunk::AChunk()
 	mesh = CreateDefaultSubobject<UProceduralMeshComponent>("Mesh");
 }
 
+void AChunk::setBiome(FastNoise *biomeNoise)
+{
+	int32 X = FMath::FloorToInt(GetActorLocation().X / 100.0f);
+	int32 Y = FMath::FloorToInt(GetActorLocation().Y / 100.0f);
+	int32 Z = FMath::FloorToInt(GetActorLocation().Z / 100.0f);
+
+	biome = biomeNoise->GetNoise(X, Y, Z);
+}
+
 // Called when the game starts or when spawned
 void AChunk::BeginPlay()
 {

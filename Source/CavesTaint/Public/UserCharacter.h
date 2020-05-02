@@ -8,6 +8,8 @@
 #include <map>
 #include "GravityCharacter.h"
 #include "Blueprint/UserWidget.h"
+#include "Equipment.h"
+#include "ToolBar.h"
 #include "UserCharacter.generated.h"
 
 
@@ -39,13 +41,23 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool isGuiOpen = false;
 
-	UPROPERTY(EditAnywhere, Category = "Categoryname")
-		TSubclassOf<UUserWidget> blueprintEuqipmentReference;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool showHUD = true;
 
-	UUserWidget* equipmentWidget;
+	UPROPERTY(EditAnywhere, Category = "Widgets")
+		TSubclassOf<UEquipment> blueprintEuqipmentReference;
 
+	UPROPERTY(EditAnywhere, Category = "Widgets")
+		TSubclassOf<UToolBar> toolBarReference;
 
-	std::map<int, std::map<int, std::map<int, float> > > chunkBiome;
+	UEquipment* equipmentWidget;
+	UToolBar *toolBar;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<FString> items;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		APlayerController* playerController;
 
 public:
 	// Sets default values for this character's properties
@@ -57,6 +69,8 @@ protected:
 
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Character")
 		UGravityMovementComponent* GetGravityMovementComponent();
+
+	FastNoise biomeNoise;
 
 public:	
 	// Called every frame
@@ -86,7 +100,13 @@ public:
 		void turnHorizontal(float value);
 
 	UFUNCTION()
+		void turnMouseWheel(float value);
+
+	UFUNCTION()
 		void openEquipment();
+
+	UFUNCTION()
+		void hideHUD();
 
 	UFUNCTION(BlueprintCallable, Category = "Chunk")
 		void checkChunk();

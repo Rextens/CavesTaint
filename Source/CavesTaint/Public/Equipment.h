@@ -9,9 +9,15 @@
 /**
  * 
  */
+
+class AUserCharacter;
+
 UCLASS()
 class CAVESTAINT_API UEquipment : public UUserWidget
 {
 	GENERATED_BODY()
 	
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		AUserCharacter *playerReference;
 };

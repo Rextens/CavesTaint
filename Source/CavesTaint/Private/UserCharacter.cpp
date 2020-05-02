@@ -9,6 +9,10 @@ AUserCharacter::AUserCharacter(const FObjectInitializer& ObjectInitializer) : Su
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	biomeNoise.SetNoiseType(FastNoise::Cellular);
+	biomeNoise.SetCellularDistanceFunction(FastNoise::Natural);
+
 }
 
 // Called when the game starts or when spawned
@@ -16,11 +20,20 @@ void AUserCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	equipmentWidget = CreateWidget<UUserWidget>(this->GetGameInstance(), blueprintEuqipmentReference);
+	equipmentWidget = CreateWidget<UEquipment>(this->GetGameInstance(), blueprintEuqipmentReference);
+	equipmentWidget->playerReference = this;
 
+	toolBar = CreateWidget<UToolBar>(this->GetGameInstance(), toolBarReference);
+	toolBar->playerReference = this;
+	toolBar->AddToViewport();
+
+
+	playerController = GetWorld()->GetFirstPlayerController();
+
+	/*
 	auto result = Async<int>(EAsyncExecution::Thread, []() {
 		
-		int x = 0;
+		int x = 0; 
 
 		for (int i = 0; i < 1000000; ++i)
 		{
@@ -32,6 +45,7 @@ void AUserCharacter::BeginPlay()
 
 		return x;
 	});
+	*/
 
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("TestNoise: %i"), result.Get()));
 }
@@ -42,6 +56,8 @@ void AUserCharacter::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	checkChunk();
+
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("TestNoise: %f"), getCurrentChunk()->biome));  
 }
 
 // Called to bind functionality to input
@@ -55,10 +71,13 @@ void AUserCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAxis("Turn", this, &AUserCharacter::turnHorizontal);
 	PlayerInputComponent->BindAxis("LookUp", this, &AUserCharacter::turnVertical);
 
+	PlayerInputComponent->BindAxis("ChooseItem", this, &AUserCharacter::turnMouseWheel);
+
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AUserCharacter::StartJump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AUserCharacter::StopJump);
 
 	PlayerInputComponent->BindAction("OpenCloseGui", IE_Pressed, this, &AUserCharacter::openEquipment);
+	PlayerInputComponent->BindAction("HideShowHUD", IE_Pressed, this, &AUserCharacter::hideHUD);
 }
 
 void AUserCharacter::MoveForward(float Value)
@@ -114,18 +133,53 @@ void AUserCharacter::turnHorizontal(float value)
 	}
 }
 
+void AUserCharacter::turnMouseWheel(float value)
+{
+	if (value != 0.0f)
+	{
+		if (toolBar->choosenSlot + value < 0)
+		{
+			toolBar->choosenSlot = 8 + value + 1;
+		}
+		else if (toolBar->choosenSlot + value > 8)
+		{
+			toolBar->choosenSlot = -1 + value;
+		}
+		else
+		{
+			toolBar->choosenSlot += value; 
+		}
+		toolBar->changeSlotInUse();
+	}
+}
+
 void AUserCharacter::openEquipment()
 {
 	if (!isGuiOpen)
 	{
 		equipmentWidget->AddToViewport();
+		playerController->bShowMouseCursor = true;
 	}
-	if(isGuiOpen)
+	else
 	{
 		equipmentWidget->RemoveFromParent();
+		playerController->bShowMouseCursor = false;
 	}
 
 	isGuiOpen = !isGuiOpen;
+}
+
+void AUserCharacter::hideHUD()
+{
+	if (showHUD)
+	{
+		toolBar->RemoveFromParent();
+	}
+	else
+	{
+		toolBar->AddToViewport();
+	}
+	showHUD = !showHUD;
 }
 
 void AUserCharacter::checkChunk()
@@ -161,6 +215,7 @@ void AUserCharacter::spawnChunk(FVector side)
 	
 
 	chunkReferences.Add(GetWorld()->SpawnActor<AChunk>(FVector(side.X * chunkSize, side.Y * chunkSize, side.Z * chunkSize), rotation, spawnParams));
+	chunkReferences[chunkReferences.Num() - 1]->setBiome(&biomeNoise); 
 }
 
 AChunk* AUserCharacter::getCurrentChunk()

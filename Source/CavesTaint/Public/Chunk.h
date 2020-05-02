@@ -11,6 +11,7 @@
 #include <vector>
 #include "Runtime/Core/Public/Async/Async.h"
 #include "Math/UnrealMathUtility.h"
+#include "FastNoise.h"
 #include "Chunk.generated.h"
 
 #define CHUNK_SIZE 16
@@ -299,12 +300,14 @@ public:
 		FVector generationRange = FVector(0.005f, 0.005f, 0.02f);
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		int32 biome = 0;
+		float biome = 0;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool borderline = false;
 
 	FVector currentChunkPosition;
+
+	void setBiome(FastNoise *biomeNoise);
 
 protected:
 	// Called when the game starts or when spawned
