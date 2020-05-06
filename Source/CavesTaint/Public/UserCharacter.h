@@ -12,6 +12,7 @@
 #include "ToolBar.h"
 #include "UserCharacter.generated.h"
 
+#define LAST_CHUNK chunkReferences[chunkReferences.Num()-1]
 
 class UGravityMovementComponent;
 
@@ -24,13 +25,13 @@ public:
 		TArray<FVector> chunkPosition;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FVector currentChunkPosition;
+		FVector currentChunkPosition; //expressed in units, so chunk at possition X = 3200, shall be just 2
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector lastChunkPosition;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
-		int32 chunkSize = 1500;
+		int32 chunkSize = 1600;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 		int32 renderSize = 4;
@@ -49,6 +50,9 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = "Widgets")
 		TSubclassOf<UToolBar> toolBarReference;
+
+	UPROPERTY(EditAnywhere, Category = "World Generation")
+		TSubclassOf<AChunk> blueprintChunkReference;
 
 	UEquipment* equipmentWidget;
 	UToolBar *toolBar;
@@ -117,8 +121,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void spawnChunk(FVector side);
 
-	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Character")
-		void removeChunk(int32 positionInArray);
-		virtual void removeChunk_Implementation(int32 positionInArray);
+	UFUNCTION(BlueprintCallable)
+		void removeChunk();
 };
 

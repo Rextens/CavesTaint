@@ -14,8 +14,10 @@
 #include "FastNoise.h"
 #include "Chunk.generated.h"
 
-#define CHUNK_SIZE 16
+#define CHUNK_SIZE 17
 #define SURFACE_LEVEL 0.2f
+
+class AUserCharacter;
 
 UCLASS()
 class CAVESTAINT_API AChunk : public AActor
@@ -294,7 +296,7 @@ public:
 		TArray<int32> triangles;
 
 	unsigned int blockTypes[CHUNK_SIZE][CHUNK_SIZE][CHUNK_SIZE];
-	float chunksValues[CHUNK_SIZE][CHUNK_SIZE][CHUNK_SIZE];
+	//float chunksValues[CHUNK_SIZE][CHUNK_SIZE][CHUNK_SIZE];
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector generationRange = FVector(0.005f, 0.005f, 0.02f);
@@ -305,9 +307,20 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool borderline = false;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector color = FVector(1.0, 1.0, 1.0);
+
+	UFUNCTION(BlueprintCallable)
+		void setBiomeColor();
+
 	FVector currentChunkPosition;
 
 	void setBiome(FastNoise *biomeNoise);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Material")
+		UMaterialInterface* biomeColor;
+
+	UMaterialInstanceDynamic* dynamicInstanceOfBiomeColor;
 
 protected:
 	// Called when the game starts or when spawned
@@ -330,7 +343,10 @@ public:
 		void loadMarchingElements(int& x, int& y, int& z, int points[16]);
 		void findOrCreateVertice(int plusX, int plusY, int plusZ, int& x, int& y, int& z);
 
+		void updateMesh();
+
 	UFUNCTION(BlueprintCallable)
 		void dig(FVector actorLocation, FVector hitLocation);
 
+	AUserCharacter *characterReference;
 };

@@ -56,7 +56,7 @@ void AUserCharacter::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	checkChunk();
-
+	removeChunk();
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("TestNoise: %f"), getCurrentChunk()->biome));  
 }
 
@@ -212,10 +212,23 @@ void AUserCharacter::spawnChunk(FVector side)
 	FActorSpawnParameters spawnParams;
 	FRotator rotation(0.0f, 0.0f, 0.0f);
 
-	
+	chunkReferences.Add(GetWorld()->SpawnActor<AChunk>(blueprintChunkReference, FVector(side.X * chunkSize, side.Y * chunkSize, side.Z * chunkSize), rotation, spawnParams));
+	LAST_CHUNK->setBiome(&biomeNoise); 
+}
 
-	chunkReferences.Add(GetWorld()->SpawnActor<AChunk>(FVector(side.X * chunkSize, side.Y * chunkSize, side.Z * chunkSize), rotation, spawnParams));
-	chunkReferences[chunkReferences.Num() - 1]->setBiome(&biomeNoise); 
+void AUserCharacter::removeChunk()
+{
+	for (int i = 0; i < chunkPosition.Num(); ++i)
+	{
+		if (abs(currentChunkPosition.X * chunkSize - chunkReferences[i]->GetActorLocation().X) > chunkSize * (renderSize + 1) ||
+			abs(currentChunkPosition.Y * chunkSize - chunkReferences[i]->GetActorLocation().Y) > chunkSize * (renderSize + 1) ||
+			abs(currentChunkPosition.Z * chunkSize - chunkReferences[i]->GetActorLocation().Z) > chunkSize * (renderSize + 1))
+		{
+			chunkReferences[i]->Destroy();
+			chunkReferences.RemoveAt(i);
+			chunkPosition.RemoveAt(i);
+		}
+	}
 }
 
 AChunk* AUserCharacter::getCurrentChunk()
@@ -228,11 +241,6 @@ AChunk* AUserCharacter::getCurrentChunk()
 		return chunkReferences[currentChunkIndex];
 	}
 	return nullptr;
-}
-
-void AUserCharacter::removeChunk_Implementation(int32 positionInArray)
-{
-
 }
 
 UGravityMovementComponent* AUserCharacter::GetGravityMovementComponent()
