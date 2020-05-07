@@ -344,6 +344,9 @@ public:
 		void findOrCreateVertice(int plusX, int plusY, int plusZ, int& x, int& y, int& z);
 
 		void updateMesh();
+		void updateOthersChunkMesh(short x, short y, short z);
+
+		void findVerticesInTheSphere(const FVector &sphereLocation, int32 sphereRadius);
 
 	UFUNCTION(BlueprintCallable)
 		void dig(FVector actorLocation, FVector hitLocation);

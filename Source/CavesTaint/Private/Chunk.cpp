@@ -24,7 +24,7 @@ void AChunk::setBiome(FastNoise *biomeNoise)
 
 	biome = biomeNoise->GetNoise(X / 3.0f, Y / 3.0f, Z / 3.0f);
 
-	if (biome < -0.3)
+	if (biome < -0.3) 
 	{
 		color = FVector(0.5, 0.3, 0);
 	}
@@ -237,61 +237,221 @@ void AChunk::updateMesh()
 	if (frontSide != INDEX_NONE)
 	{
 		AChunk* frontSideChunk = characterReference->chunkReferences[frontSide];
-	}
 
+		for (int y = 0; y < CHUNK_SIZE; ++y)
+		{
+			for (int z = 0; z < CHUNK_SIZE; ++z)
+			{
+				blockTypes[16][y][z] = frontSideChunk->blockTypes[0][y][z];
+			}
+		}
+	}
+	/*
 	int32 backSide = characterReference->chunkPosition.Find(FVector(GetActorLocation().X / characterReference->chunkSize - 1, GetActorLocation().Y / characterReference->chunkSize,
 		GetActorLocation().Z / characterReference->chunkSize));
 	if (backSide != INDEX_NONE)
 	{
+		AChunk* backSideChunk = characterReference->chunkReferences[backSide];
 
+		for (int y = 0; y < 16; ++y)
+		{
+			for (int z = 0; z < 16; ++z)
+			{
+				temporaryBlockTypes[0][y][z] = backSideChunk->blockTypes[16][y][z];
+			}
+		}
 	}
+	*/
 
 	int32 rightSide = characterReference->chunkPosition.Find(FVector(GetActorLocation().X / characterReference->chunkSize, GetActorLocation().Y / characterReference->chunkSize + 1,
 		GetActorLocation().Z / characterReference->chunkSize));
 	if (rightSide != INDEX_NONE)
 	{
+		AChunk* rightSideChunk = characterReference->chunkReferences[rightSide];
 
+		for (int x = 0; x < CHUNK_SIZE; ++x)
+		{
+			for (int z = 0; z < CHUNK_SIZE; ++z)
+			{
+				blockTypes[x][16][z] = rightSideChunk->blockTypes[x][0][z];
+			}
+		}
 	}
 
+	/*
 	int32 leftSide = characterReference->chunkPosition.Find(FVector(GetActorLocation().X / characterReference->chunkSize, GetActorLocation().Y / characterReference->chunkSize - 1,
 		GetActorLocation().Z / characterReference->chunkSize));
 	if (leftSide != INDEX_NONE)
 	{
+		AChunk* leftSideChunk = characterReference->chunkReferences[leftSide];
 
+		for (int x = 0; x < 16; ++x)
+		{
+			for (int z = 0; z < 16; ++z)
+			{
+				temporaryBlockTypes[x][0][z] = leftSideChunk->blockTypes[x][16][z];
+			}
+		}
 	}
+	*/
+
 
 	int32 topSide = characterReference->chunkPosition.Find(FVector(GetActorLocation().X / characterReference->chunkSize, GetActorLocation().Y / characterReference->chunkSize,
 		GetActorLocation().Z / characterReference->chunkSize + 1));
 	if (topSide != INDEX_NONE)
 	{
+		AChunk* topSideChunk = characterReference->chunkReferences[topSide];
 
+		for (int x = 0; x < CHUNK_SIZE; ++x)
+		{
+			for (int y = 0; y < CHUNK_SIZE; ++y)
+			{
+				blockTypes[x][y][16] = topSideChunk->blockTypes[x][y][0];
+			}
+		}
 	}
 
+	/*
 	int32 bottomSide = characterReference->chunkPosition.Find(FVector(GetActorLocation().X / characterReference->chunkSize, GetActorLocation().Y / characterReference->chunkSize,
 		GetActorLocation().Z / characterReference->chunkSize - 1));
 	if (bottomSide != INDEX_NONE)
 	{
-		AChunk* frontSideChunk = characterReference->chunkReferences[frontSide];
+		AChunk* bottomSideChunk = characterReference->chunkReferences[bottomSide];
+
+		for (int x = 0; x < 16; ++x)
+		{
+			for (int y = 0; y < 16; ++y)
+			{
+				temporaryBlockTypes[x][y][0] = bottomSideChunk->blockTypes[x][y][16];
+			}
+		}
 	}
+	*/
+	vertices.Empty();
+	triangles.Empty();
+
+	int cubeIndex = 0;
+
+	for (int x = 0; x < CHUNK_SIZE - 1; ++x)
+	{
+		for (int y = 0; y < CHUNK_SIZE - 1; ++y)
+		{
+			for (int z = 0; z < CHUNK_SIZE - 1; ++z)
+			{
+				float cube[8];
+				setCube(x, y, z, cube);
+				cubeIndex = getCubeIndex(0.2f, cube);
+				loadMarchingElements(x, y, z, marchingArray[cubeIndex]);
+			}
+		}
+	}
+
+	TArray<FColor> colors;
+
+	TArray<FProcMeshTangent> tangents;
+
+	mesh->ClearMeshSection(0);
+	mesh->CreateMeshSection(0, vertices, triangles, TArray<FVector>(), TArray<FVector2D>(), colors, tangents, true);
+}
+
+void AChunk::updateOthersChunkMesh(short x, short y, short z)
+{
+	int32 side = characterReference->chunkPosition.Find(FVector(GetActorLocation().X / characterReference->chunkSize + x, GetActorLocation().Y / characterReference->chunkSize + y,
+		GetActorLocation().Z / characterReference->chunkSize + z));
+	if (side != INDEX_NONE)
+	{
+		AChunk* sideChunk = characterReference->chunkReferences[side];
+
+		sideChunk->updateMesh();
+	}
+}
+
+void AChunk::findVerticesInTheSphere(const FVector &sphereLocation, int32 sphereRadius)
+{
+	
 }
 
 void AChunk::dig(FVector actorLocation, FVector hitLocation)
 {
-	int roundX = hitLocation.X / 100;
-	int roundY = hitLocation.Y / 100;
-	int roundZ = hitLocation.Z / 100;
+	int xIndex = int(abs(actorLocation.X - hitLocation.X) / 100);
+	int yIndex = int(abs(actorLocation.Y - hitLocation.Y) / 100);
+	int zIndex = int(abs(actorLocation.Z - hitLocation.Z) / 100);
 
-	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("The Component Being Hit is: %i, %i, %i, %i"), int(roundX * 100 - actorLocation.X) / 100, int(roundY * 100 - actorLocation.Y) / 100, int(roundZ * 100 - actorLocation.Z) / 100, blockTypes[int(roundX * 100 - actorLocation.X) / 100][int(roundY * 100 - actorLocation.Y) / 100][int(roundZ * 100 - actorLocation.Z) / 100]));
+	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("The Component Being Hit is: %i, %i, %i, %i"), xIndex, yIndex, zIndex));
 
-	if (int(roundX * 100 - actorLocation.X) / 100 == 0 || int(roundX * 100 - actorLocation.X) / 100 == 16)
+	if (xIndex == 15 || yIndex == 15 || zIndex == 15)
 	{
-		
+		blockTypes[xIndex][yIndex][zIndex] = 0;
+		updateMesh();
 	}
-	if (int(roundY * 100 - actorLocation.Y) / 100 == 0 || int(roundY * 100 - actorLocation.Y) / 100 == 16)
+	
+
+	/*
+	if (xIndex == 0)// || int(roundX * 100 - actorLocation.X) / 100 == 16)
+	{
+		int32 bottomSide = characterReference->chunkPosition.Find(FVector(GetActorLocation().X / characterReference->chunkSize - 1, GetActorLocation().Y / characterReference->chunkSize,
+			GetActorLocation().Z / characterReference->chunkSize));
+		if (bottomSide != INDEX_NONE)
+		{
+			AChunk* bottomSideChunk = characterReference->chunkReferences[bottomSide];
+
+			blockTypes[xIndex][yIndex][zIndex] = 0;
+			vertices.Empty();
+			triangles.Empty();
+			
+			int cubeIndex = 0;
+
+			for (int x = 0; x < CHUNK_SIZE - 1; ++x)
+			{
+				for (int y = 0; y < CHUNK_SIZE - 1; ++y)
+				{
+					for (int z = 0; z < CHUNK_SIZE - 1; ++z)
+					{
+						float cube[8];
+						setCube(x, y, z, cube);
+						cubeIndex = getCubeIndex(0.2f, cube);
+						loadMarchingElements(x, y, z, marchingArray[cubeIndex]);
+					}
+				}
+			}
+
+			TArray<FColor> colors;
+
+			TArray<FProcMeshTangent> tangents;
+
+			mesh->ClearMeshSection(0);
+			mesh->CreateMeshSection(0, vertices, triangles, TArray<FVector>(), TArray<FVector2D>(), colors, tangents, true);
+
+			bottomSideChunk->blockTypes[15][yIndex][zIndex] = 0;
+
+			cubeIndex = 0;
+
+			for (int x = 0; x < CHUNK_SIZE - 1; ++x)
+			{
+				for (int y = 0; y < CHUNK_SIZE - 1; ++y)
+				{
+					for (int z = 0; z < CHUNK_SIZE - 1; ++z)
+					{
+						float cube[8];
+						bottomSideChunk->setCube(x, y, z, cube);
+						cubeIndex = getCubeIndex(0.2f, cube);
+						bottomSideChunk->loadMarchingElements(x, y, z, marchingArray[cubeIndex]);
+					}
+				}
+			}
+
+			bottomSideChunk->mesh->ClearMeshSection(0);
+			bottomSideChunk->mesh->CreateMeshSection(0, bottomSideChunk->vertices, bottomSideChunk->triangles, TArray<FVector>(), TArray<FVector2D>(),
+				colors, tangents, true);
+		}
+	}
+
+
+	if (yIndex == 0) //|| int(roundY * 100 - actorLocation.Y) / 100 == 16)
 	{
 
 	}
-	if (int(roundZ * 100 - actorLocation.Z) / 100 == 0) //|| int(roundZ * 100 - actorLocation.Z) / 100 == 16)
+	if (zIndex == 0) //|| int(roundZ * 100 - actorLocation.Z) / 100 == 16)
 	{
 		int32 bottomSide = characterReference->chunkPosition.Find(FVector(GetActorLocation().X / characterReference->chunkSize, GetActorLocation().Y / characterReference->chunkSize,
 			GetActorLocation().Z / characterReference->chunkSize - 1));
@@ -299,7 +459,7 @@ void AChunk::dig(FVector actorLocation, FVector hitLocation)
 		{
 			AChunk* bottomSideChunk = characterReference->chunkReferences[bottomSide];
 
-			blockTypes[int(roundX * 100 - actorLocation.X) / 100][int(roundY * 100 - actorLocation.Y) / 100][int(roundZ * 100 - actorLocation.Z) / 100] = 0;
+			blockTypes[xIndex][yIndex][zIndex] = 0;
 			vertices.Empty();
 			triangles.Empty();
 
@@ -326,7 +486,7 @@ void AChunk::dig(FVector actorLocation, FVector hitLocation)
 			mesh->ClearMeshSection(0);
 			mesh->CreateMeshSection(0, vertices, triangles, TArray<FVector>(), TArray<FVector2D>(), colors, tangents, true);
 
-			bottomSideChunk->blockTypes[int(roundX * 100 - actorLocation.X) / 100][int(roundY * 100 - actorLocation.Y) / 100][16] = 0;
+			bottomSideChunk->blockTypes[xIndex][yIndex][15] = 0;
 
 			cubeIndex = 0;
 
@@ -343,17 +503,18 @@ void AChunk::dig(FVector actorLocation, FVector hitLocation)
 					}
 				}
 			}
-
+			
 			bottomSideChunk->mesh->ClearMeshSection(0);
 			bottomSideChunk->mesh->CreateMeshSection(0, bottomSideChunk->vertices, bottomSideChunk->triangles, TArray<FVector>(), TArray<FVector2D>(), 
 				colors, tangents, true);
 		}
 	}
-	if(int(roundX * 100 - actorLocation.X) / 100 != 0 && int(roundX * 100 - actorLocation.X) / 100 != 16 && 
-		int(roundY * 100 - actorLocation.Y) / 100 != 0 && int(roundY * 100 - actorLocation.Y) / 100 != 16 && 
-		int(roundZ * 100 - actorLocation.Z) / 100 != 0 && int(roundZ * 100 - actorLocation.Z) / 100 != 16)
+	*/
+	if(xIndex != 15 && 
+		yIndex != 15 && 
+		zIndex != 15)
 	{
-		blockTypes[int(roundX * 100 - actorLocation.X) / 100][int(roundY * 100 - actorLocation.Y) / 100][int(roundZ * 100 - actorLocation.Z) / 100] = 0;
+		blockTypes[xIndex][yIndex][zIndex] = 0;
 		vertices.Empty();
 		triangles.Empty();
 
@@ -379,5 +540,23 @@ void AChunk::dig(FVector actorLocation, FVector hitLocation)
 
 		mesh->ClearMeshSection(0);
 		mesh->CreateMeshSection(0, vertices, triangles, TArray<FVector>(), TArray<FVector2D>(), colors, tangents, true);
+	}
+	if (xIndex == 0 || yIndex == 0 || zIndex == 0)
+	{
+		//if (xIndex == 0 && yIndex != 0 && zIndex != 0)
+		//{
+			updateOthersChunkMesh(-1, 0, 0);
+		//}
+		//if (xIndex != 0 && yIndex == 0 && zIndex != 0)
+		//{
+			updateOthersChunkMesh(0, -1, 0);
+		//}
+		//if (xIndex != 0 && yIndex != 0 && zIndex == 0)
+		//{
+			updateOthersChunkMesh(0, 0, -1);
+		//}
+			updateOthersChunkMesh(-1, -1, 0);
+			updateOthersChunkMesh(-1, -1, 1);
+
 	}
 }
