@@ -17,7 +17,7 @@
 #define CHUNK_SIZE 17
 #define SURFACE_LEVEL 0.2f
 
-class AUserCharacter;
+class AWorldGenerator;
 
 UCLASS()
 class CAVESTAINT_API AChunk : public AActor
@@ -351,5 +351,6 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void dig(FVector actorLocation, FVector hitLocation);
 
-	AUserCharacter *characterReference;
+	//AUserCharacter *characterReference;
+	AWorldGenerator *worldGeneratorReference;
 };

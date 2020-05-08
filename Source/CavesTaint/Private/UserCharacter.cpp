@@ -9,10 +9,6 @@ AUserCharacter::AUserCharacter(const FObjectInitializer& ObjectInitializer) : Su
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
-	biomeNoise.SetNoiseType(FastNoise::Cellular);
-	biomeNoise.SetCellularDistanceFunction(FastNoise::Natural);
-
 }
 
 // Called when the game starts or when spawned
@@ -29,34 +25,12 @@ void AUserCharacter::BeginPlay()
 
 
 	playerController = GetWorld()->GetFirstPlayerController();
-
-	/*
-	auto result = Async<int>(EAsyncExecution::Thread, []() {
-		
-		int x = 0; 
-
-		for (int i = 0; i < 1000000; ++i)
-		{
-			for (int j = 0; j < 1000000; ++j)
-			{
-				x = i / j;
-			}
-		}
-
-		return x;
-	});
-	*/
-
-	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("TestNoise: %i"), result.Get()));
 }
 
 // Called every frame
 void AUserCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	checkChunk();
-	removeChunk();
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("TestNoise: %f"), getCurrentChunk()->biome));  
 }
 
@@ -181,68 +155,6 @@ void AUserCharacter::hideHUD()
 	}
 	showHUD = !showHUD;
 }
-
-void AUserCharacter::checkChunk()
-{
-	
-	for (int x = -renderSize; x < renderSize; ++x)
-	{
-		for (int y = -renderSize; y < renderSize; ++y)
-		{
-			for (int z = -renderSize; z < renderSize; ++z)
-			{
-			//	if (x == 0 && y == 0 && z == 0)
-			//	{
-					FVector side = FVector(currentChunkPosition.X + x, currentChunkPosition.Y + y, currentChunkPosition.Z + z);
-
-					if (chunkPosition.Find(side) == -1)
-					{
-						//addChunk(side);
-						spawnChunk(side);
-						chunkPosition.AddUnique(side);
-					}
-			//	}
-			}
-		}
-	}
-}
-
-void AUserCharacter::spawnChunk(FVector side)
-{
-	FActorSpawnParameters spawnParams;
-	FRotator rotation(0.0f, 0.0f, 0.0f);
-
-	chunkReferences.Add(GetWorld()->SpawnActor<AChunk>(blueprintChunkReference, FVector(side.X * chunkSize, side.Y * chunkSize, side.Z * chunkSize), rotation, spawnParams));
-	LAST_CHUNK->setBiome(&biomeNoise); 
-}
-
-void AUserCharacter::removeChunk()
-{
-	for (int i = 0; i < chunkPosition.Num(); ++i)
-	{
-		if (abs(currentChunkPosition.X * chunkSize - chunkReferences[i]->GetActorLocation().X) > chunkSize * (renderSize + 1) ||
-			abs(currentChunkPosition.Y * chunkSize - chunkReferences[i]->GetActorLocation().Y) > chunkSize * (renderSize + 1) ||
-			abs(currentChunkPosition.Z * chunkSize - chunkReferences[i]->GetActorLocation().Z) > chunkSize * (renderSize + 1))
-		{
-			chunkReferences[i]->Destroy();
-			chunkReferences.RemoveAt(i);
-			chunkPosition.RemoveAt(i);
-		}
-	}
-}
-
-AChunk* AUserCharacter::getCurrentChunk()
-{
-	FVector currentChunkCoordinates = FVector(currentChunkPosition.X, currentChunkPosition.Y, currentChunkPosition.Z);
-
-	unsigned int currentChunkIndex = chunkPosition.Find(currentChunkCoordinates);
-	if (currentChunkIndex != -1)
-	{
-		return chunkReferences[currentChunkIndex];
-	}
-	return nullptr;
-}
-
 UGravityMovementComponent* AUserCharacter::GetGravityMovementComponent()
 {
 	return Cast<UGravityMovementComponent>(GetMovementComponent());
