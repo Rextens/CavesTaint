@@ -22,7 +22,7 @@ void AChunk::setBiome(FastNoise *biomeNoise)
 	int32 Y = FMath::FloorToInt(GetActorLocation().Y / 100.0f);
 	int32 Z = FMath::FloorToInt(GetActorLocation().Z / 100.0f);
 
-	biome = biomeNoise->GetNoise(X / 3.0f, Y / 3.0f, Z / 3.0f);
+	biome = biomeNoise->GetCellular_3D(X / 3.0f, Y / 3.0f, Z / 3.0f, 1.0f);
 
 	if (biome < -0.3) 
 	{

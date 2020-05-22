@@ -10,7 +10,6 @@ AWorldGenerator::AWorldGenerator()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	biomeNoise.SetNoiseType(FastNoise::Cellular);
 	biomeNoise.SetCellularDistanceFunction(FastNoise::Natural);
 }
 
@@ -19,13 +18,16 @@ void AWorldGenerator::BeginPlay()
 {
 	Super::BeginPlay();
 
-	characterReference = Cast<AUserCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+	
 }
 
 // Called every frame
 void AWorldGenerator::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	characterReference = Cast<AUserCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+
 
 	checkChunk();
 	removeChunk();
