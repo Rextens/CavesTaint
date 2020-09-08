@@ -3,6 +3,7 @@
 #include "CoreMinimal.h"
 #include "FastNoise.h"
 #include "VoxelWorldGeneratorHelpers.h"
+#include <Source/VoxelGraph/Public/VoxelNodes/VoxelNoiseNodes.h>
 #include "MyWorldGenerator.generated.h"
 
 UCLASS(Blueprintable)
